@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Baut die Seite neu, committet Quelle und Publikation und pusht nach GitHub.
+# GitHub Pages liefert danach automatisch die neue Fassung aus.
+#
+#   npm run veroeffentlichen                     Commit-Nachricht mit Datum
+#   npm run veroeffentlichen -- "Was sich ändert" eigene Commit-Nachricht
+
+set -euo pipefail
+cd "$(dirname "$0")/.."            # production/
+REPO="$(git rev-parse --show-toplevel)"
+
+branch="$(git -C "$REPO" branch --show-current)"
+if [ "$branch" != "main" ]; then
+  echo "Abbruch: veröffentlicht wird nur von main, aktuell ist $branch ausgecheckt." >&2
+  exit 1
+fi
+
+echo "Baue die Seite …"
+npm run --silent build >/dev/null
+
+git -C "$REPO" add -A
+if git -C "$REPO" diff --cached --quiet; then
+  echo "Keine Änderungen, nichts zu veröffentlichen."
+  exit 0
+fi
+
+echo "Geänderte Dateien:"
+git -C "$REPO" diff --cached --stat | tail -1
+
+nachricht="${1:-Seite aktualisiert am $(date '+%d.%m.%Y %H:%M')}"
+git -C "$REPO" commit -q -m "$nachricht"
+git -C "$REPO" push -q origin main
+echo "Veröffentlicht: $(git -C "$REPO" log --oneline -1)"
+echo "GitHub Pages braucht danach ein bis zwei Minuten, bis die neue Fassung online ist."

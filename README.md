@@ -35,6 +35,14 @@ python3 scripts/vorschau.py
 Zeigt die erzeugte Seite unter http://localhost:8411 so an, wie GitHub Pages sie ausliefert.
 
 ```bash
+npm run veroeffentlichen -- "Was sich geändert hat"
+```
+
+Baut die Seite, committet Quelle und Publikation zusammen und pusht nach GitHub.
+GitHub Pages liefert die neue Fassung ein bis zwei Minuten später aus.
+Ohne eigene Nachricht wird das Datum als Commit-Nachricht verwendet.
+
+```bash
 npm run import
 ```
 
