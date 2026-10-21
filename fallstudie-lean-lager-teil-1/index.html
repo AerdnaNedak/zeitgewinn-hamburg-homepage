@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fallstudie Lean Lager – Teil 1 · Zeitgewinn Hamburg</title>
+<meta name="description" content="Ein Metallbauer möchte sein Lager optimieren. Wir unterstützen ihn dabei und berichten darüber. Der vorliegende Teil 1 der Lean Lager-Fallstudie widmet sich der Planung der Maßnahmen im Lager. Im zweiten Teil wird es um die …">
+<link rel="canonical" href="https://zeitgewinn-hamburg.de/fallstudie-lean-lager-teil-1/">
+<link rel="icon" href="../assets/favicon.png" sizes="150x150">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="cibar"></div>
+<header class="site-head"><div class="wrap">
+  <a class="logo" href="../"><img src="../assets/logo.svg" alt="zeitgewinn hamburg" width="268" height="43"></a>
+  <nav class="nav">
+    <a href="../">Startseite</a>
+    <a href="../blog/" aria-current="page">Blog</a>
+    <a class="btn btn-pink" href="https://work-with-ease.com/">Zu Work with Ease</a>
+  </nav>
+</div></header>
+<main>
+<article class="article">
+  <div class="crumb"><a href="../blog/">← Blog</a></div>
+  <div class="tags"><a class="tag" href="../blog/?thema=lean-lager1">Lean Lager</a><a class="tag" href="../blog/?thema=software">Software</a></div>
+  <h1>Fallstudie Lean Lager – Teil 1</h1>
+  <div class="meta"><time datetime="2021-04-28">28. April 2021</time> · Andrea Kaden</div>
+  <div class="notice"><div>Dieser Artikel stammt aus dem Archiv von Zeitgewinn Hamburg. Aktuelle Inhalte finden Sie bei <a href="https://work-with-ease.com/">Work with Ease →</a></div></div>
+  <div class="prose">
+<p><strong>Ein Metallbauer möchte sein Lager optimieren. Wir unterstützen ihn dabei und berichten darüber. Der vorliegende Teil 1 der <a href="../lean-lager/">Lean Lager</a>-Fallstudie widmet sich der Planung der Maßnahmen im Lager. Im zweiten Teil wird es um die physische Umsetzung gehen.</strong></p>
+<p>Inhalt</p>
+<p>Toggle</p>
+<ul>
+<li><a href="../fallstudie-lean-lager-teil-1/#Abkuerzungsverzeichnis">Abkürzungsverzeichnis</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Einfuehrung">Einführung</a>
+<ul>
+<li><a href="../fallstudie-lean-lager-teil-1/#Das_Unternehmen">Das Unternehmen</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Das_Lager_im_Konfliktzentrum">Das Lager im Konfliktzentrum</a></li>
+</ul>
+</li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Generelle_Vorgehensweise">Generelle Vorgehensweise</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Planung_des_Projekts">Planung des Projekts</a>
+<ul>
+<li><a href="../fallstudie-lean-lager-teil-1/#Projektplan_und_Art_der_Zusammenarbeit">Projektplan und Art der Zusammenarbeit</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Analyse_des_Lagers">Analyse des Lagers</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Entwicklung_des_Lager-Grundkonzepts">Entwicklung des Lager-Grundkonzepts</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Planung_zur_Einfuehrung_des_Lagerverwaltungssystems_IDALABS_GmbH_Co_KG">Planung zur Einführung des Lagerverwaltungssystems (IDALABS GmbH &amp; Co. KG)</a></li>
+<li><a href="../fallstudie-lean-lager-teil-1/#Planung_Soll-Lagerlayout">Planung Soll-Lagerlayout</a></li>
+</ul>
+</li>
+</ul>
+<h2><strong>Abkürzungsverzeichnis</strong></h2>
+<p>FMMA = Fertigungsmitarbeiter**innen und Monteure**innen</p>
+<p>LMA = Lagermitarbeiter*innen</p>
+<p>LVS = Lagerverwaltungssystem</p>
+<p>MA = Mitarbeitende</p>
+<h2><strong>Einführung</strong></h2>
+<h3>Das Unternehmen</h3>
+<p>Unser Kunde ist ein mittelständisches Metallbauunternehmen in Niedersachsen. Das vor über 100 Jahren gegründete Familienunternehmen befindet sich nach wie vor unter der Führung der Nachfahren des Gründers. Diese erbringen, gemeinsam mit insgesamt 30 MA, hochwertige Leistungen im Bereich Fenster-, Türen-, und Fassadenbau. Die Auftragsbücher sind aufgrund der hohen Produktqualität vollständig gefüllt.</p>
+<h3>Das Lager im Konfliktzentrum</h3>
+<p>Trotz voller Auftragsbücher gibt es Defizite im Bereich der Lagerprozesse. Doch wie zeigen sich diese Defizite? Das Unternehmen verwendet weder ein Kennzahlen- noch ein Lagerverwaltungssystem, aus dem es Kennzahlen generieren kann.</p>
+<p>Die Defizite zeigen sich über Konflikte: Konflikte zwischen Lager und Fertigung, zwischen Lager und Montage sowie zwischen Lager und Lieferant. Im Konflikt stehen die unterschiedlichen Ziele der einzelnen Unternehmensbereiche.</p>
+<p>Untenstehende Abbildung skizziert grob die wichtigsten Schnittstellen/Konfliktstellen, welche für das Lager relevant sind.</p>
+<p><img src="../wp-content/uploads/Lean-Lager-Lagerkonflikte-300x187.png" alt="Lean Lager - Lagerkonflikte" title="Lean Lager - Lagerkonflikte"></p>
+<p><strong>Beispiele für Zielkonflikte</strong></p>
+<ul>
+<li>Die Fertigung möchte bauen. Dafür braucht sie Artikel. Diese sind im Lager nicht verfügbar, also wendet sich das Lager an den Einkauf. Der Einkauf möchte günstige Konditionen und bestellt deshalb lieber mehr, da z.B. Rabatte locken. Letztendlich verbleiben dann einige Artikel im Lager, da die Fertigung sie nicht direkt verbraucht. Das Lager, welches eigentlich geringe Lagerbestände möchte, überfüllt langsam mit Artikeln, welche FMMA nicht regelmäßig verbrauchen.</li>
+<li>Die Fertigung möchte bauen. Regelmäßig benötigte Artikel sind nur selten vorhanden, obwohl das Lager insgesamt voll ist. Deshalb entnehmen sie mehr, als sie eigentlich benötigen. Regelmäßig benötigte Artikel sind deshalb noch seltener vorhanden.</li>
+<li>Das Lager will nicht vorhandenen, obwohl regelmäßig benötigten, Artikeln vorbeugen. Deshalb legt es eine Excel-Liste im Lager aus (Symptombekämpfung). In dieser soll die Fertigung eintragen, wenn sie sich etwas entnimmt. Die Fertigung möchte bauen. In stressigen Situationen entnehmen sie sich die Artikel und tragen die Entnahme nicht in die Excel-Liste ein. Das Lager denkt, die Artikel sind vorhanden und bestellt sie fälschlicherweise nicht nach.</li>
+</ul>
+<p>Im Konflikt steht lagerseitig der Wunsch nach weniger Artikeln (geringer Bestand), einkaufsseitig der Wunsch nach preiswerteren Artikeln (günstige Konditionen), fertigungs- und montageseitig der Wunsch nach den Artikeln, die FMMA grade benötigen (relevante Artikel).</p>
+<p>Wenn also alle Bereiche getrennt voneinander ihre Ziele verfolgen, hat das Lager einen Überbestand an Unwichtigem und einen Unterbestand an Wichtigem. Bestellungen gehen raus, die nicht getätigt werden müssen. Bestellungen gehen nicht raus, die getätigt werden müssen.</p>
+<p>Das Lager ist der Dienstleister der Fertigung und der Einkauf ist der Dienstleister des Lagers. Um einen verbrauchsgerechten Materialfluss zwischen diesen Bereichen zu gewährleisten, werden Andrea Kaden und ich bei unserem Kunden ein <a href="https://www.business-wissen.de/artikel/prozessplanung-wie-das-pull-prinzip-funktioniert/#:~:text=Das%20Pull%2DPrinzip%20als%20Methode,einer%20Bestellung%20oder%20eines%20Auftrags.)">Pull-Prinzip</a> (pull = ziehen) verfolgen. Die Fertigung „zieht“ die Artikelbestellungen. Ein Pull-Prinzip wird über das <a href="https://agilescrumgroup.de/kanban/">Kanban-Prinzip</a> realisiert. Wie das Pull- und Kanban-Prinzip in der Theorie funktionieren, können Sie hier nachlesen. Wie wir das beim Kunden umsetzen, finden Sie im weiteren Verlauf der Fallstudie heraus.</p>
+<p>Die genannten Umstände führen dazu, dass sich die Geschäftsführung des Kunden mit einer zunehmenden Unzufriedenheit der MA konfrontiert sieht. Dabei gibt jeder dem anderen Bereich die Schuld. Jeder Einzelne habe die Arbeit korrekt ausgeführt. Ironischerweise liegen alle gleichzeitig richtig und falsch: Alle haben ihre Arbeit, den Umständen entsprechend, richtig gemacht. Wie wir vorhin veranschaulicht haben, ist die richtige Arbeit der einen Abteilung nicht immer die richtige Arbeit für die andere.</p>
+<p>Das Lager hat einen großen Querschnittscharakter. Es besitzt viele Schnittstellen zu den anderen Bereichen und steht fertigungsseitig im Fokus der Unzufriedenheit der MA.</p>
+<p>Die Geschäftsführung wendet sich daher an Andrea Kaden und mich. Gemeinsam mit den Unternehmensbereichen schauen wir genau hin. Was sind die Konflikte, die zugrundeliegenden Probleme und deren Ursachen? Was sind nur Symptome?</p>
+<h2><strong>Generelle Vorgehensweise</strong></h2>
+<p>Die Lean-Lageroptimierung lehnen wir an die Struktur eines Lean-KVP Prozesses an. Das heißt wir benutzten einen <strong>PDCA</strong>-Kreislauf (<strong>P</strong>lan, <strong>D</strong>o, <strong>C</strong>heck, <strong>A</strong>ct).</p>
+<p>Während der Planung (<strong>Plan</strong>) wird dabei zunächst eine umfassende Ist-Analyse zu Konflikten durchgeführt. Daraus leiten sich Probleme, Wünsche, Ziele sowie Lösungen und ein Projektplan ab. Die Planungsphase ist entscheidend für den Erfolg des Projektes, da bei fehlerhaften Analysen alle weiteren Maßnahmen auf falschen Annahmen beruhen und somit die Sinnhaftigkeit dieser Maßnahmen angezweifelt werden muss. Aus diesem Grund nimmt diese Phase die meiste Zeit in Anspruch.</p>
+<p>Nachdem wir uns auf eine Lösung, den Soll-Zustand, einigen, beginnt die Umsetzungsphase (<strong>Do</strong>). Während dieser Phase wird die „eigentliche Arbeit“ durchgeführt. Anhand des Projektplans arbeiten wir konsequent auf das gemeinsam definierte Ziel hin. Für die zeitliche Dimension dient der Projektplan als Referenz und für die Zielerreichung die in der Planung definierten Ziele.</p>
+<p>Ist der Soll-Zustand umgesetzt wird noch einmal genau hingeschaut: Wurden die gewünschten Ziele erreicht (<strong>Check</strong>)? Wenn die Antwort „Nein!“ ist, beginnt der Kreislauf mit der Planungsphase von vorne. Falls die Antwort „Ja!“ ist, was uns gelegen kommen würde, beginnt die Phase der Standardisierung (<strong>Act</strong>). Ein geschaffener Soll-Zustand darf natürlich nicht einfach wieder verschwinden. Deshalb werden die neu geschaffenen Zustände und Abläufe „in Stein gemeißelt“. Natürlich nur so lange, bis ein neuer/besserer Standard geschaffen wird.</p>
+<h2>Planung des Projekts</h2>
+<p>Der vorliegende erste Teil der Fallstudie beschäftigt sich mit der Planung des Projektes. Zum Abschluss der Planung liegen alle Informationen vor, um das Lager umzubauen und das LVS „scharf zu schalten“.</p>
+<h3>Projektplan und Art der Zusammenarbeit</h3>
+<p><img src="../wp-content/uploads/Lean-Lager-projektplan-300x122.jpg" alt="Lean Lager - Projektplan" title="Lean Lager - Projektplan"></p>
+<p>Innerhalb des Projekts arbeiten wir mit dem Kunden in <a href="https://trello.com/de">Trello</a>. Das Programm dient uns als eine schlanke und zentrale Plattform für alle nötigen Informationen, Aufgaben und Diskussionen in der Zusammenarbeit. Ein Vorteil von Trello ist, dass Aufgaben nach dem Kanban-Prinzip abgearbeitet werden. Das Kanban-Prinzip wird bei der Umsetzung des Pull-Prinzips eine Rolle im Lager spielen. Deshalb ist es ein positiver Nebeneffekt, dass die MA bereits mit dem Konzept vertraut gemacht werden.</p>
+<p>Alle Dateien sind in einem Ordner in Google Drive abgespeichert. Von hier aus werden sie an die in Trello abgebildeten Aufgaben angehängt. Deshalb kann jeder Projektteilnehmer über Trello direkt auf die zur Aufgabe relevanten Dateien zugreifen. Von überall aus. Die Folge ist, dass statt drei Programmen (E-Mail, Ordner, To-Do Listen) nur ein Programm für die Arbeit am Projekt geöffnet werden muss. Das spart Zeit.</p>
+<p>Für den groben Ablauf orientieren wir uns bei der Projektarbeit an dem Projektplan. Auf der anderen Seite gibt es ein wöchentlich wiederkehrendes Zoom-Meeting. Hier nehmen wir Feinabstimmungen vor, legen wöchentlich Ziele fest und verfolgen diese Ziele bis zum nächsten Termin.</p>
+<h3><strong>Analyse des Lagers</strong></h3>
+<p>Wie sieht es aus als wir uns, gemeinsam mit dem Kunden, das Lager anschauen? Wie es meistens aussieht, wenn ein Lager und zugehörige Prozesse 117 Jahre vor sich hin wachsen.</p>
+<p><img src="../wp-content/uploads/Lean-Lager-Ist-Zustand-1-225x300.jpeg" alt="Lean Lager - Ist-Zustand 1" title="Lean Lager - Ist-Zustand 1">       <img src="../wp-content/uploads/Lean-Lager-Ist-Zustand-2-225x300.jpg" alt="Lean Lager - Ist-Zustand 2" title="Lean Lager - Ist-Zustand 2"></p>
+<p>In Anbetracht dieser Zeitspanne sieht das Lager, im Vergleich zu anderen Betrieben mit langem und unkontrolliertem Prozesswachstum, noch passabel aus. Auf dem Foto ist zu erkennen, dass mit Hilfe der blauen Sichtlagerkästen ein System geschaffen wurde, in dem durch Beschriftung eine Art Lagerfach mit zugeordnetem Inhalt definiert werden kann. Eine Änderung dieses Inhalts ist allerdings nur handschriftlich am Sichtlagerkasten selbst durchzuführen. Außerdem könnte so ein Kasten leicht verloren gehen, da in den eigentlichen Regalen keine Beschriftungen vorhanden sind. Dieses bereits nicht sichere System gilt allerdings nur für Kleineile. Alles was größer als die Sichtlagerkästen ist, wird nach „Gutdünken“ in nicht definierten Lagerfächern mit nicht definiertem Inhalt gelagert. Solche Gegenstände werden ebenso verloren gehen. Unter anderem deshalb, weil sie zwischen anderen Gegenständen nicht zu erkennen sind.</p>
+<p>Begehungen und Befragungen der Geschäftsführung gemeinsam mit den FMMA/LMA geben weiteren Aufschluss über die aktuelle Situation über das Lager. Hier sind die wichtigsten Probleme sowie daraus abgeleitete Wünsche und Ziele aus den Befragungen der Konfliktbereiche:</p>
+<p><strong>Probleme</strong></p>
+<ul>
+<li><strong>P1</strong>: Unzufriedenheit mit Lagerorten</li>
+<li><strong>P2</strong>: Nichtbenutzung vorhandener Artikel</li>
+<li><strong>P3</strong>: Nicht vorhandene Artikel sind vermeintlich im Bestand und es erfolgt keine Bestellung</li>
+<li><strong>P4</strong>: Aufwändige, lange Inventur mit handschriftlichen Listen</li>
+<li><strong>P5</strong>: Platzprobleme</li>
+<li><strong>P6</strong>: Artikelsuche dauert ewig</li>
+<li><strong>P7</strong>: Aufwändiger, händischer Bestellprozess</li>
+<li><strong>P8</strong>: Lagerperformance ist unbekannt</li>
+<li><strong>P9</strong>: FMMA verlieren Zeit bei der Entnahme von Artikeln, da sie jede Entnahme in eine Liste eintragen müssen</li>
+</ul>
+<p><strong>Wünsche</strong></p>
+<ul>
+<li><strong>W1</strong>: Platzoptimiertes Lager</li>
+<li><strong>W2</strong>: Digitale Nachverfolgung von Artikeln und Maschinen</li>
+<li><strong>W3</strong>: Arbeiten mit Barcodes</li>
+<li><strong>W4</strong>: Automatisierte Inventur</li>
+<li><strong>W5</strong>: Projektbezogene Ein- und Auslagerung</li>
+<li><strong>W6</strong>: Rechtzeitiger Verbrauch von Artikeln mit Verfallsdaten</li>
+<li><strong>W7</strong>: FMMA müssen sich mehr auf ihre eigentlichen Aufgaben konzentrieren können</li>
+</ul>
+<p><strong>Ziele</strong></p>
+<ul>
+<li><strong>Z1</strong>: Erhöhung des Flächennutzungsgrades / Platzoptimierung</li>
+<li><strong>Z2</strong>: Zeitreduktion beim Suchen von Artikeln</li>
+<li><strong>Z3</strong>: Zeitreduktion der Inventur</li>
+<li><strong>Z4</strong>: FMMA können sich frei an Artikeln bedienen → Pull-Prinzip / Kanban-Prinzip</li>
+<li><strong>Z5</strong>: Reduzierung des Durchschnittsbestandes</li>
+<li><strong>Z6</strong>: FIFO-Prinzip (First in – First out)</li>
+<li><strong>Z7</strong>: Automatisierte Bestellungen</li>
+</ul>
+<p>Im weiteren Verlauf dieser Fallstudie findet sich hinter Sätzen immer wieder z.B. „(<strong>Z3</strong>)“. Kurz gesagt bedeutet dies, dass wir mit der Maßnahme das in Klammern stehende Ziel verfolgen.</p>
+<h3><strong>Entwicklung des Lager-Grundkonzepts</strong></h3>
+<p>Für die Zielerreichung der Ziele 1-7 wird</p>
+<ol>
+<li>das bestehende Lager „entrümpelt“ und nicht benutzte Artikel aussortiert (<strong>Z1</strong>),</li>
+<li>das Lagerlayout verändert (<strong>Z1</strong>, <strong>Z2</strong>),</li>
+<li>ein LVS eingeführt (<strong>Z1-7</strong>),</li>
+<li>und ein Pull-Prinzip verfolgt (<strong>Z4</strong>).</li>
+</ol>
+<p>Ein LVS unterstützt bei der Erreichung aller genannten Ziele. Nach umfassenden Recherchen entscheiden wir uns für <a href="https://www.idalabs.de/">IDALABS</a>, eine modular aufgebaute und auf das Handwerk spezialisierte Software.</p>
+<p>Wie soll die Lagerhaltung zukünftig aussehen? Und wie wird es möglich sein, dass sich FMMA frei an den Lagerartikeln bedienen können? Und warum ist das sinnvoll?</p>
+<p>Im Grunde ist die Fertigung der Kunde des Lagers. Ein FMMA ist keine Lagerfachkraft. Dementsprechend halbherzig wird ein FMMA seine Lagertätigkeiten durchführen. Wer könnte es ihm/ihr verübeln? Sie wollen und sollen dem nachgehen, wofür sie sich berufen fühlen: Dem Handwerk. Dem Verändern und Zusammenführen von Materialien. Abgesehen davon sind FMMA nicht in Lagerungsthemen ausgebildet. Ein Metallbauer verdient Geld mit exzellenten Produkten und nicht mit dem Lagern von Artikeln. Ein exzellentes Produkt verlangt MA, die sich auf ihre Aufgaben konzentrieren und nicht ständig nach Artikeln fragen oder suchen müssen. Um das zu ermöglichen, wird ein einfaches, aber effektives Pull-Prinzip für Standardartikel geschaffen.</p>
+<ul>
+<li><strong>Standardartikel</strong> sind günstige und mengenmäßig große Artikel wie Schrauben und Dübel, welche FMMA regelmäßig verbrauchen und kein straffes Ablaufdatum besitzen.</li>
+<li>Alle anderen Artikel sind <strong>Kommissionsartikel</strong>. Diese benötigen FMMA unregelmäßig und sind tendenziell teurer und sperriger.</li>
+</ul>
+<p><strong>Grundkonzept Standardartikel</strong></p>
+<ul>
+<li>Jeder Standardartikel besitzt einen festen Lagerplatz (<strong>Z2</strong>)</li>
+<li>Der Lagerplatz ist über Etiketten (= Lagerplatzkennzeichnung und digitale Kanban-Karte) klar gekennzeichnet (<strong>Z2, Z3, Z4</strong>)</li>
+<li>Ein Schild am Eingang des Lagers gibt Aufschluss über den Lagerort eines Artikels (<strong>Z2</strong>)</li>
+<li>Der Platzbedarf eines Artikels ist durch den Maximalbestand so gering wie notwendig (<strong>Z1</strong>, <strong>Z5</strong>)</li>
+<li>FMMA entnehmen sich die Artikel, die sie benötigen (<strong>Z4</strong>)</li>
+<li>Ein LMA geht periodisch durch das Lager und gleicht den Meldebestand mit dem tatsächlichen Bestand eines Artikels ab</li>
+<li>Ist der Meldebestand erreicht, scannt der LMA die Etikette über IDALABS an (<strong>Z4</strong>, <strong>Z7</strong>)</li>
+<li>Der LMA dreht die Etikette um. Auf der Rückseite steht das selbe, nur mit dem Hinweis „BESTELLT“, damit er keine weitere Bestellung auslöst (<strong>Z4</strong>)</li>
+<li>Eine Bestellungsanfrage, mit der hinterlegten Bestellmenge, geht automatisch an den Einkauf (<strong>Z4</strong>, <strong>Z7</strong>)</li>
+<li>Der Einkauf gibt die Bestellung frei</li>
+<li>FMMA können sich weiterhin an dem Artikel bedienen, da der Restbestand bis zum Eintreffen der Bestellung ausreicht</li>
+<li>Die Bestellung trifft ein</li>
+<li>Der LMA lagert die Bestellung am vorgesehenen Lagerplatz ein und dreht die Etikette um</li>
+<li>Der Kreislauf beginnt von vorne (<strong>Z4)</strong></li>
+</ul>
+<p>Für die Inventur bedeutet das, dass die LMA das Etikett des Lagerplatzes abscannen und lediglich die Anzahl an Verpackungseinheiten eintippen müssen. Das System weiß, wie viele Einheiten sich in einer Verpackungseinheit befinden. Sie müssen maximal eine einzige angebrochene Verpackungseinheit manuell zählen und in der App eintragen. Die Inventur wird so deutlich schneller und stressfreier vonstattengehen (<strong>Z3</strong>).</p>
+<p><strong>Grundkonzept Kommissionsartikel</strong></p>
+<ul>
+<li>Kommissionsartikel besitzen keinen festen Lagerplatz</li>
+<li>Sie werden auftragsbezogen über einen bei IDALABS angelegten Auftrag bestellt</li>
+<li>Jeder Auftrag besitzt eine einzigartige Nummer</li>
+<li>Bei Wareneingang werden Etiketten mit der Auftragsnummer gedruckt und an die Verpackungseinheiten angebracht</li>
+<li>Die Verpackungseinheiten werden anschließend in Kommissionsregale, je nach Auftrags-Endnummer, einsortiert</li>
+<li>Die Kommissionsregale sind von 0-9 nummeriert</li>
+<li>Folglich wissen die jeweiligen FMMA, wo Kommissionsartikel zum speziellen Auftrag zu finden sind (<strong>Z2</strong>) und können sich frei bedienen (<strong>Z4</strong>).</li>
+</ul>
+<h3>Planung zur Einführung des Lagerverwaltungssystems (IDALABS GmbH &amp; Co. KG)</h3>
+<p>Um das IDALABS Materialwirtschafts-Modul erfolgreich einführen zu können, sind mehrere Schritte notwendig:</p>
+<ol>
+<li>Lagerbezeichnungen, Regalbezeichnungen definieren</li>
+<li>Zuordnung der Artikel zu Standardartikeln/Kommissionsartikeln</li>
+<li>Platzbedarf (Meldebestand, Bestellmenge) je Artikel bestimmen</li>
+<li>Zuordnung der Artikel zu Lagerplätzen</li>
+</ol>
+<p>Dafür benutzen wir eine Übergabeliste, welche wir nach und nach füllen. Am Schluss übergeben wir diese dann an IDALABS.</p>
+<ol>
+<li>Die Lagerbezeichnungen werden nicht funktional, sondern logisch mit Abkürzungen definiert. Dabei besitzt jedes Gebäude auf dem Gelände einen Buchstaben, angefangen mit „A“ und im Urzeigersinn alphabetisch aufsteigend. Die Fertigung, in dessen Gebäude auch die Standardartikel liegen, besitzt den Buchstaben „B“. Da es sich im Erdgeschoss befindet, folgen die Buchstaben „EG“. Innerhalb des Gebäudes besitzen die Räume eine Nummer im Uhrzeigersinn von „1“ aufsteigend. Für die Lagerbezeichnung der Standardartikel ergibt sich so „BEG6“. Die Regalbezeichnungen hingegen sind funktional gehalten. „S1“ steht dabei für das Schraubenregal, welches aus Fertigungssicht am schnellsten zu erreichen ist.</li>
+<li>Zugeordnet wird nach Erfahrungswerten unterstützt mit Bestelldaten.</li>
+<li>Wird ein Artikel den Standardartikeln zugeordnet, wird es notwendig, dessen Platzbedarf zu bestimmen. Dieser ergibt sich wie folgt: Unser Kunde besitzt zum Zeitpunkt der Aufnahme noch kein LVS. Dies hat zur Folge, dass kein genauer Tagesverbrauch pro Artikel bestimmt werden kann. Aus diesem Grund wird mit einer von uns entwickelten Excel-Liste gearbeitet, die den Platzbedarf moderat schätzt. Nach Einführung des LVS und genauen Verbrauchsdaten, wird der Platzbedarf pro Artikel exakt berechnet werden, um den Lagerbestand weiter zu reduzieren.- Platzbedarf = Meldebestand (MB) + optimale Bestellmenge (OB)<br>
+– MB = Tagesverbrauch (Jahresverbrauch / 350) x Wiederbeschaffungszeit + Puffer<br>
+– OB = Wurzel aus [(200 x Jahresverbrauch x Bestellfixe Kosten) / (Lagerhaltungskostensatz x Einstandspreis)] – Lagerhaltungskostensatz = Lagerkostensatz + marktüblicher Zins<br>
+– Lagerkostensatz = (Lagerkosten) / (∅ Lagerwert) *100 [%]</li>
+<li>Ist der Platzbedarf bekannt, können die Standardartikel den Regalen und Fächern zugeordnet werden. Dabei wird sortenrein einsortiert und alle Informationen in der Übergabeliste für IDALABS eingetragen:<img src="../wp-content/uploads/uebergabeliste-300x12.jpg" alt="Lean Lager - Übergabeliste" title="Lean Lager - Übergabeliste">Sind all diese Informationen über einen Artikel bekannt, wird die Übergabeliste eingepflegt und IDALABS generiert daraus Lagerplatz-Etiketten:<img src="../wp-content/uploads/etikette-vorderseite-300x91.jpg" alt="Lean Lager - IDALABS Etikette" title="Lean Lager - IDALABS Etikette">„Min“ ist der errechnete Meldebestand und „Max“ der Maximalbestand. Die Min- und Max-Werte ergeben sich über die oben genannte Übergabeliste. Die Bestellmenge ergibt sich aus Max-Wert minus Min-Wert. Auf der Beispieletikette müssen bei 3 verbleibenden Verpackungseinheiten 4 nachbestellt werden.</li>
+</ol>
+<h3>Planung Soll-Lagerlayout</h3>
+<p>Für die Erreichung eines höheren Flächennutzungsgrades (<strong>Z1</strong>) muss entweder die Gesamtfläche verkleinert oder die genutzte Fläche erhöht werden. Aus verschiedenen Gründen aber vor allem, weil wir unserem Kunden keinen Umbau des Gebäudes zumuten wollen, soll an der Stellschraube „genutzte Fläche“ gedreht werden. An dieser Stelle wird nicht auf das gesamte Lager, sondern auf das Lager für Standardartikel eingegangen.</p>
+<p><img src="../wp-content/uploads/Lean-Lager-Altes-Layout-300x216.jpg" alt="Lean Lager - Altes Layout" title="Lean Lager - Altes Layout">      <img src="../wp-content/uploads/Lean-Lager-Neues-Layout-300x216.jpg" alt="Lean Lager - Neues Layout" title="Lean Lager - Neues Layout"></p>
+<p>Nach mehreren Vorschlägen verschiedener Layouts einigen wir uns auf ein neues Layout (rechts). Mit Hilfe einer Neuanordnung der aktuellen Regale (90° gedreht, Mittelgang, Gangbreitenreduzierung, Stapelung der Bohr-Schränke SU2/SU3 auf SU1) schaffen wir ein übersichtlicheres und platzoptimiertes Lagerlayout.</p>
+<p>Am Abschluss der Planung liegen uns alle nötigen Informationen gebündelt in einer Liste vor, die wir anschließend IDALABS übergeben. Damit ist Zeit für die Bestellung neuer Regale für Standardartikel, Kommissionsartikel und Etikettenhalter.</p>
+<p>Wie das Ganze „in Action“ aussieht, finden Sie in Teil 2 der Fallstudie heraus.</p>
+
+  </div>
+  <div class="after">
+    <h2>Weitere Artikel</h2>
+    <div class="cards"><a class="card" href="../digitale-tools-fuer-zusammenarbeit-im-office/" data-themen="artikel coole-tools green-lean-digital lean-digital-office-artikel loesungen-aus-der-praxis papierloses-buero software">
+  <div class="card-img"><img src="../wp-content/uploads/image-9-600x237.png" alt="" loading="lazy"></div>
+  <div class="card-body">
+    <time datetime="2023-04-11">11. April 2023</time>
+    <h3>Digitale Tools für Zusammenarbeit im Office</h3>
+    <p>E-Mail, Digitale Ablage und eine Branchensoftware sind schon lange nicht mehr genug für effiziente Zusammenarbeit. Doch bevor Sie sich in einem Dschungel an digitalen Werkzeugen verlieren, sollten Sie sich über die Systematik …</p>
+    <div class="tags"><span class="tag">Coole Tools</span><span class="tag">Green-Lean-Digital</span><span class="tag">Lean Digital Office</span></div>
+  </div>
+</a>
+<a class="card" href="../kollaboration-im-office-mit-kanbanize/" data-themen="artikel coole-tools green-lean-digital lean-digital-office-artikel produktivitaet-und-zeitmanagement software">
+  <div class="card-img"><img src="../wp-content/uploads/image-2-600x406.png" alt="" loading="lazy"></div>
+  <div class="card-body">
+    <time datetime="2023-02-21">21. Februar 2023</time>
+    <h3>Kollaboration im Office mit Kanbanize</h3>
+    <p>Ein Tool, was mich für die digitale Kollaboration im Office begeistert ist Kanbanize. Dort kann man wirklich sehr fortgeschritten und smart zusammenarbeiten. Mit seinen verschiedenen Perspektiven auf den Flow im Office, der …</p>
+    <div class="tags"><span class="tag">Coole Tools</span><span class="tag">Green-Lean-Digital</span><span class="tag">Lean Digital Office</span></div>
+  </div>
+</a>
+
+    </div>
+  </div>
+</article>
+
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a href="../"><img src="../assets/logo.svg" alt="zeitgewinn hamburg" width="212" height="34"></a>
+  <nav><a href="../blog/">Blog</a><a href="../impressum/">Impressum</a><a href="../datenschutzerklaerung/">Datenschutz</a><a href="https://work-with-ease.com/">work-with-ease.com</a></nav>
+  <small>© 2011–2026 Zeitgewinn Hamburg · Unsere aktuellen Angebote finden Sie bei Work with Ease.</small>
+</div></footer>
+
+</body>
+</html>

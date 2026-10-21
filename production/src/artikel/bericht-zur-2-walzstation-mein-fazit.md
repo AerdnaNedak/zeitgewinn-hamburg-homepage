@@ -1,0 +1,22 @@
+---
+title: "Bericht zur 2. Walzstation – mein Fazit"
+date: 2013-11-12T15:57:47
+autor: "Andrea Kaden"
+themen: ["organizeraufderwalz"]
+auszug: "Für mich war es ein großartiges Erlebnis, aber auch eine Herausforderung, in einer Beta-Unternehmenskultur zu arbeiten. Oftmals war ich diejenige, die sich an diese Kultur gewöhnen musste und nicht die Mitarbeiter an mich als …"
+permalink: "/bericht-zur-2-walzstation-mein-fazit/"
+wp_id: 5503
+---
+Für mich war es ein großartiges Erlebnis, aber auch eine Herausforderung, in einer [Beta-Unternehmenskultur](/und-mittags-geh-ich-heim/) zu arbeiten. Oftmals war ich diejenige, die sich an diese Kultur gewöhnen musste und nicht die Mitarbeiter an mich als Professional Organizer. 😉 So konnte ich mir die Denke in Abteilungen, die es bei allsafe ja nicht gibt, nur schwer abgewöhnen. Auch Herr Lohmanns Selbstverständnis, dass die jeweiligen Teams über meine vorgeschlagenen Maßnahmen selbst entscheiden sollen, zeigte mir das absolute Vertrauen eines Chefs, wie ich es noch nie erlebt hatte.
+
+Fünfzehn Ingenieure, Konstrukteure und Maschinenbauer haben sich eine Woche darauf eingelassen, ihr Büro und ihre Versuchswerkstatt geradezu bilderbuchmäßig aufzuräumen und auf die Suche nach Optimierungspotentialen zu gehen. Bei meinem Ansatz der [5S-Methode](/erfolgreich-mit-5s-meine-tipps/) haben alle mit viel Engagement, Ideen und Zeit mitgearbeitet und Positives und Negatives bei ihren Arbeitsabläufen offen angesprochen. Während des Aufräumens und Archivierens sind uns viele kleine Prozesse aufgefallen, zu denen im Team Klarheit geschaffen werden muss. Gemeinsam haben wir es geschafft, in nur einer Woche Standards festzulegen und dabei die konzentrierte Arbeitsatmosphäre trotz manch einem „schwäbischen Gschwätz“ aufrecht zu erhalten.
+
+Mich hat beeindruckt, wie selbstständig die Mitarbeiter Aktionspläne für die Büroarbeit und die Versuchswerkstatt erstellt haben. So können direkt nach der Zeit meines Professional Organizings weiterführende Prozesse besprochen und optimiert werden. Auch habe ich mein Ziel der Mitarbeitersensibilisierung erreicht: der Arbeitsplatz endet nicht an der eigenen Schreibtischkante, sondern geht darüber hinaus bis in gemeinsame Arbeitsbereiche.
+
+Vieles der dortigen Beta-Kultur hat mich sehr angesprochen, vor allem aber die gelebte Eigenverantwortung der Mitarbeiter. Die wird auch immer wieder vom Chef betont und durchgetragen. So äußerte er zum Beispiel auf den Wunsch einiger Mitarbeiter hin, er möge doch bitte bei einigen uneinsichtigen Kollegen hinsichtlich deren Unordnung ein Machtwort sprechen, dass dies seinem Konzept widerspräche. Sie müssten einen eigenen Weg finden, um diese Kollegen zu überzeugen und ihr Ziel zu erreichen. „…und wenn es etwas dauert, macht das auch nix, aber Sie lernen es“, denn „wir arbeiten prozessorientiert und nicht ergebnisorientiert…“, so Herr Lohmann wörtlich. Er vertraut voll darauf, dass seine Mitarbeiter über den Tellerrand hinausschauen, eben keine eindimensionalen Spezialisten sind. Dazu trägt auch das wöchentliche Stand-up-Meeting bei, in dem sich alle gegenseitig zu Aktuellem informieren.
+
+**Und mal ehrlich:** Wer wünscht sich nicht eine solche Arbeitsatmosphäre oder möchte ein solcher Chef sein? Es ist großartig, mit welcher Begeisterung die Kollegen über ihr Unternehmen und den Chef sprechen – eine Wohltat im Vergleich zu den oft zitierten unzufriedenen Arbeitnehmern in unserem Land. Statt strenger Hierarchie oder Angst habe ich nur einen großen, natürlichen Respekt gegenüber Herrn Lohmann verspürt. Sein Buch, das ich bereits lese, passt absolut mit seiner Arbeitsrealität zusammen. „…und mittags geh ich heim“ werde ich noch einmal gesondert vorstellen, denn es lohnt sich!
+
+Neben all der gegenseitigen Begeisterung gab es am Ende meiner Woche eine für mich wieder lehrreiche Manöverkritik. Auch als erfahrener Professional Organizer lerne ich immer wieder dazu. So hatte ich die Unsicherheit eines Kollegen als Desinteresse oder Ablehnung meiner Vorschläge interpretiert. Ich muss also noch expliziter nachfragen, mich nicht abwimmeln lassen, mir manchmal besonders viel Zeit nehmen und dann noch geduldiger werden.
+
+Und zum Schluss noch ein kleines Beispiel, was volles Vertrauen des Chefs auch bedeutet: Ein allsafe-**Azubi** hat mich im Privatwagen des Chefs zum Bahnhof gefahren. (Nicht nur mein Papa, der AUDI-Narr, hätte mich sicher für ein paar Minuten beneidet.) 😉

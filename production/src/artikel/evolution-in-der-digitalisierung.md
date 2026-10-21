@@ -1,0 +1,144 @@
+---
+title: "Evolution in der Digitalisierung"
+date: 2018-11-02T18:31:19
+autor: "Andrea Kaden"
+themen: ["green-lean-digital","lean-digital-office-artikel","papierloses-buero"]
+bild: "/wp-content/uploads/to-do-apps-600x372.png"
+auszug: "Die Digitalisierung ist gekommen, um zu bleiben. Daran besteht kein Zweifel. Der Begriff steht im Grunde für ein Naturgesetz: Analoges und Manuelles, das sich digitalisieren lässt, wird früher oder später digitalisiert und so …"
+permalink: "/evolution-in-der-digitalisierung/"
+wp_id: 8459
+---
+Die Digitalisierung ist gekommen, um zu bleiben. Daran besteht kein Zweifel. Der Begriff steht im Grunde für ein Naturgesetz: Analoges und Manuelles, das sich digitalisieren lässt, wird früher oder später digitalisiert und so weit als möglich automatisiert. Die Welt des Handfesten, des Greifbaren ist in Auflösung begriffen.
+
+Diese quasi Naturgesetzlichkeit sollte aber nicht darüber hinwegtäuschen, dass die [Digitalisierung](/digitalisierung-endlich-verstaendlich/) menschengemacht und in Entwicklung begriffen ist. Man kann sie nicht als etwas Unabhängiges erforschen oder erlernen. Sie wird täglich neu erschaffen und entfaltet sich durch uns, mit uns, mittels uns. Digitalisierung und Mensch durchlaufen eine Co-Evolution.
+
+Wie, Wann, Was werden in dieser Entwicklung ausgehandelt. Nicht aber ein Ob. Ob digitalisiert wird, ist (schon lange) nicht mehr die Frage.
+
+Es gibt bei der Digitalisierung also Gestaltungsräume. Wir und sie müssen uns finden. Das ist ein Annäherungs- und Erkundungsprozess. Wer experimentell veranlagt ist und Nicht-Endgültigkeit aushält, der ist dabei klar im Vorteil.
+
+Das mag Ihnen abstrakt klingen. Ich meine es aber ganz konkret. Die Beispiele stehen mir vor Augen.
+
+## Digitalisierung breitet sich aus
+
+Meine erste Beobachtung: Digitalisierung findet zunächst in der Breite statt. Es wird digitalisiert, was noch nicht digitalisiert ist.
+
+Beispiel Buchhaltung: Die Buchhaltung war lange eine Bastion der Papierverarbeitung. Immer wieder sehe ich auch noch tapfere Buchhalter, die sich eingeigelt haben und auf alles schießen, was digital ist. „Belege müssen im Original vorliegen!“ steht auf ihrer Fahne und sie meinen damit Papieroriginale. Doch dieser Kampf ist schon verloren. Originalität hat der Gesetzgeber seit langem vom Medium Papier abgekoppelt; auch Archivierung auf Papier ist nicht zwangsläufig. Die Buchhaltung wird komplett von der Digitalisierung vereinnahmt. Buchhalter haben nur noch die Wahl, sich davon schmerzvoll überrollen zu lassen – oder das als Chance zu begreifen, sich das Leben schnellstmöglich zu erleichtern.
+
+Beispiel Postversand: Die Papierpost wird vielleicht nie ganz verschwinden. Doch ihr nicht-digitaler Anteil wird kleiner und kleiner. Wer per Post kommunizieren muss, muss dafür kein Papier mehr in die Hand nehmen: der Postversand kann digital mit einem Dienst wie [LetterXpress](https://www.letterxpress.de) erfolgen ([ich habe darüber berichtet](/postversand-papierlos/)) – und der Postempfang kann über einen Dienst wie [Dropscan](https://www.dropscan.de) laufen.
+
+Beispiel Beziehungsanbahnung: Sogar „das Thema Nr. 1“, die Liebe, steckt schon unter einer Decke mit der Digitalisierung. Die Nutzung von Plattformen von Parship bis Tinder ist nichts Besonderes mehr, sogar bei älteren Menschen. Treffen muss man und will man sich noch analog, doch der Weg dahin ist einfach(er) digital geworden.
+
+So stellt sich Digitalisierung also zunächst dar: als sich ausbreitender Brand.
+
+Doch das ist nur der Anfang!
+
+## Digitalisierung entwickelt sich
+
+Sie könnten glauben, dass der Sturm der Digitalisierung vorüber sei, wenn denn etwas digitalisiert wurde: Eben war die Buchhaltung noch analog, jetzt ist sie digital. Der Umbruch war schmerzhaft, doch nun ist er geschafft. Fertig. Bis gestern haben Sie ihren Kalender und ihre Notizen noch auf Papier gemacht, heute nutzen Sie eine Kalender-App und eine Notizen-App. Es ist geschafft. Fertig.
+
+Doch so läuft es nicht mit der Digitalisierung. Das wollte ich mit der Überschrift dieses Artikels ausdrücken. Die Digitalisierung bleibt in Bewegung, auch wenn sie schon das Analoge geschluckt hat. Ich möchte sogar sagen: Dann geht es erst richtig los!
+
+Solange etwas noch analog, greifbar ist, ist es schwerfällig. Es ist nur umständlich herzustellen, es ist umständlich zu bewegen, ergo: es ist teuer. Veränderungen in der analogen Welt sind daher relativ langsam. Entwicklungen sind behäbig.
+
+Ganz anders in der digitalen Welt! Die Grenzkosten zur Herstellung von Software sind nahe Null. Die Transportkosten sind nahe Null. Facebook zum Beispiel verändert sein Produkt mehrmals täglich und Milliarden Nutzer können davon profitieren (oder darunter leiden).
+
+Diese grundsätzlich anderen Bedingungen in der Digitalität führen dazu, dass Produkte nicht stehenbleiben und ständig neue Produkte entstehen. Es bilden sich sogar laufend neue Produktkategorien heraus.
+
+Bei der Hardware und sehr hardwarenaher Software mag es so aussehen, als sei es noch möglich oder gar wünschenswert, sich einmal für ein Produkt zu entscheiden. Ihr Unternehmen setzt z.B. auf Dell Computer und Windows als Betriebssystem. Fertig. Muss man das noch hinterfragen? Selbst wenn die Dell-Computer alle 3-5 Jahre ausgetauscht werden und Windows immer neue Versionen durchläuft, ist doch die Grundentscheidung unangetastet.
+
+Und auch bei sehr großen Softwareentscheidungen scheint die Digitalisierung eine einmalige Sache, Beispiel SAP. Wer sich einmal dafür entscheidet, wird sich auf Jahrzehnte, wenn überhaupt, nicht dagegen entscheiden. Eher gehen Unternehmen womöglich zugrunde, als dass sie SAP gegen etwas Besseres austauschten. Sie machen also ihre eigene Entwicklung abhängig von der einen eingekauften Software.
+
+### Stillstand ausgeschlossen
+
+Es könnte also so aussehen, als würde Digitalisierung zu einem Stillstand kommen, wenn sie sich erstmal ausgebreitet hat.
+
+Doch meine zweite Beobachtung ist, dass das nicht stimmt. Oder wenn, dann ist das kein vorteilhafter Zustand.
+
+Hat die Digitalisierung Einzug gehalten, dann sind vielmehr Tür und Tor für die „Digitalisierung 2. Ordnung“ geöffnet.
+
+**Digitalisierung 1. Ordnung** ist die Digitalisierung, die Sie vor allem wahrnehmen. Es wird digital, was noch nicht digital war.
+
+**Digitalisierung 2. Ordnung** ist darauf aufbauend eine Veränderung dessen, wie digitalisiert wird.
+
+Ein Beispiel aus dem Office: Analog war das Office, solange es mit Telefon, Post, Papier, Aktenordner, Schränken gearbeitet hat. Digitalisierung 1. Ordnung hat dazu geführt, dass Telefon und Post durch Email ersetzt wurden, dass Wandkalender, Notizbuch, Aufgabenliste, Umlaufmappe, Aktenordner, Schrank von Outlook und Dropbox abgelöst wurden. Schreibmaschine, Papier und Stift ersetzen Word und Excel.
+
+Das ist ein gewaltiger Umbruch, ohne Frage. Der hat Jahre, gar Jahrzehnte gebraucht. Doch nun geht es schneller. Die Digitalisierung 2. Ordnung kann beginnen.
+
+Wie bei der 1. Ordnung können Sie sich auch ihr entgegen stemmen. Igeln Sie sich ein, schießen Sie zurück, hoffen Sie auf die Rente. Doch es hilft nichts! Wer die Digitalisierung 2. Ordnung nicht lernt zu begrüßen, wird sich an der Digitalisierung insgesamt die Zähne ausbeißen.
+
+Bei der Digitalisierung 2. Ordnung geht es um Versionen, Modelle, Hersteller und Phasen. Die Frage ist nicht mehr, ob etwas digital ist und Software zum Einsatz kommt, sondern welche.
+
+Beispiel Outlook: Nach Word und Excel ist wohl Outlook die Software, die zu einer breiten Digitalisierung der Arbeit im Office geführt hat. Und damit könnte aus dem reißenden Fluss Digitalisierung ein stehendes Gewässer geworden sein.
+
+Indem Kommunikation, Aufgabenverwaltung, Notizen, Adressbuch mit Outlook aber digital geworden sind, besteht kein Grund mehr, sich auf Outlook zu beschränken. In der Digitalität ist es so viel einfacher, sich zu verändern und für das Bessere zu entscheiden. Das Neue, Andere, vielleicht Bessere klopft in der Digitalität ständig an die Tür.
+
+### Meine persönliche digitale Evolution
+
+Zunächst habe ich meine Aufgaben auch in Outlook verwaltet. Doch dann kam Wunderlist und hat mir mehr geboten. Warum hätte ich für die Aufgabenverwaltung bei Outlook bleiben sollen? Und dann wurde Wunderlist von Microsoft gekauft und drohte unterzugehen. Also bin ich auf [Todoist](https://todoist.com) umgestiegen. Warum sich an ein sinkendes Tool klammern? Und nun differenziere ich zwischen Aufgaben viel mehr als früher und benutze Tools wie [kanBo](https://kanboapp.com/), [Trello](https://trello.com) oder [Notion](https://www.notion.so). Dadurch sinkt mein Bedarf an Leistung bei einer Aufgabenverwaltung. Deshalb bin ich vom kostenpflichtigen Todoist auf das für meine Ansprüche kostenlose [TickTick](https://ticktick.com) umgestiegen.
+
+Eine ähnliche Entwicklung hat mein Umgang mit Notizen durchgemacht: von [Evernote](https://evernote.com/intl/de/) über [Bear Writer](https://bear.app) zu Notion.
+
+Oder sogar dort, wo die Verhältnisse unverrückbar schienen, habe ich mich bewegt. Die Textverarbeitung Word ist nicht mehr mein einziges Werkzeug zur Textproduktion. Ich benutze [Ulysses](https://ulysses.app/) für online Texte wie diesen oder [Dropbox Paper](http://paper.dropbox.com) für Textentwürfe, die ich mit anderen teilen möchte, und wieder andere Texte eher Notizen und gehören daher in Bear oder Notion.
+
+#### Sehen Sie das Muster?
+
+Am Anfang der Digitalisierung steht oft *die eine Lösung*, hier Outlook. Überhaupt erstmal digital werden, ist die Herausforderung.
+
+Doch wenn dieser Schritt getan ist… dann steigen die Ansprüche, dann schärft sich der Blick, dann drängt sich Differenzierung auf.
+
+Nicht nur durchlaufen einzelne Software-Werkzeuge Versionen bei einem Hersteller. Sie kennen das von Windows oder Office von Microsoft. Es entstehen vielmehr gleichzeitig ständig weitere Werkzeuge mit ähnlichen, vor allem aber auch neuen Funktionalitäten und Funktionalitätsmixturen.
+
+Die Werkzeugwelt in der Digitalisierung ist ein sprudelndes Meer der Möglichkeiten. Darin entstehen und vergehen Apps. Manche steigen zu ungeahnter Popularität auf (Beispiele: [WhatsApp](https://www.whatsapp.com) oder [Slack](https://slack.com/intl/de/)), andere verschwinden bald wieder, obwohl sie vielversprechend aussahen (Beispiel Cringle).
+
+Natürlich muss oder kann niemand das alles überblicken und mitmachen. Doch es ist eben auch nicht zu leugnen und bietet immer wieder Chancen.
+
+Digitalisierung 2. Ordnung nimmt diese Chancen wahr. In ihr gibt es deshalb kein Ankommen und keine endgültige Entscheidung. In der Digitalisierung 2. Ordnung an ein einheitliches Ausrollen und jahrelanges Fixieren von Softwaretools zu denken, ist kontraproduktiv.
+
+Damit will ich nicht sagen, dass alle paar Monate jedes Tool gewechselt werden sollte. Veränderung ist auch in der Digitalisierung kein Selbstzweck. Aber Veränderungsbereitschaft und -fähigkeit ist in der Digitalisierung Voraussetzung und Kernkompetenz.
+
+### Evolutionsphasen
+
+Für mich sieht es derzeit so aus, als gäbe es dabei einige Phasen, die immer wieder durchlaufen werden. Durch sie dreht sich eine Spirale der Werkzeugnutzung höher und höher.
+
+1.  Erkunden
+2.  Mischen
+3.  Konzentrieren
+4.  Ausschleichen
+
+#### Phase der Erkundung
+
+In der **Erkundung** schauen Sie sich ein Werkzeug an. Sie möchten Ihr Los verbessern. Outlook, Wunderlist oder Evernote taugen Ihnen aus einem Grund nicht mehr wie noch vor einiger Zeit. Vielleicht hat sich die Benutzerschnittstelle ungünstig mit dem letzten Update verändert, vielleicht fehlen Ihnen zu lange schon wichtige Features oder vielleicht hat sich das Preismodell verschlechtert.
+
+Selbst wenn Sie sich nicht verändern, so verändern sich alle Softwarewerkzeuge ständig. In der Digitalisierung hat sich das nochmal beschleunigt. Es besteht damit keine Garantie, dass Ihnen eine heute zufriedenstellende App auch morgen noch gefällt oder dass es sie überhaupt noch gibt.
+
+Wenn Sie unzufrieden geworden sind, schauen Sie sich also um. Andere Softwarehersteller haben bestimmt auch „schöne Töchter“. Währenddessen arbeiten Sie allerdings mit Ihrem alten Werkzeug noch weiter. Allenfalls versuchsweise probieren Sie ein anderes aus.
+
+#### Mischbetrieb
+
+Wenn Sie schließlich ein Objekt der Begierde identifiziert haben – zum Beispiel Wunderlist statt des bisherigen Outlook für die Aufgabenverwaltung -, dann gehen Sie in einen **Mischbetrieb** über: Altes und Neues betreiben Sie für eine gewisse Zeit parallel.
+
+Zum Beispiel verwalten Sie neue Aufgaben schon mit Wunderlist, Sie übernehmen auch einige alte Aufgaben aus Outlook nach Wunderlist, aber übertragen nicht krampfhaft alles aus dem alten Tool in das neue. Die meisten alten Aufgaben arbeiten Sie im Alten Werkzeug ab.
+
+Eine solche Mischphase dauert mehr oder weniger lang, doch meiner Erfahrung nach gibt es sie immer. In der Digitalisierung 2. Ordnung findet sich also immer wieder Zweigleisigkeit. Die alte App stellen Sie in den Hintergrund, doch sie bleibt noch im Zugriff. Sollte damit ein Abo verbunden sein, kündigen Sie das auch nicht sofort, wenn Sie mit einer neuen App Ernst machen. (Derzeit ist das bei mir so mit Todoist, für das ich noch zahle, obwohl ich schon TickTick nutze.) Geben Sie sich einige Wochen oder sogar Monate Zeit, Ihre Gewohnheiten umzustellen und ganz sicher in der Nutzung des neuen Tools zu werden. Irgendwann bemerken Sie dann, dass sie das alte schon sehr lange nicht mehr gestartet haben.
+
+#### Phasen der Konzentration und Ausschleichen
+
+Sie sind dann ganz von selbst in die Phase der **Konzentration** übergegangen. Nun benutzen Sie exklusiv das neue Werkzeug. Es erfüllt Ihre Wünsche, Sie entwickeln Routinen, Sie sammeln darin Daten an. Das Alte schalten Sie endgültig ab, deinstallieren es, kündigen ein eventuelles Abo.
+
+Das geht so lange gut, bis Sie irgendwann aus irgendeinem Grund bemerken, dass es Ihnen nicht mehr taugt. Wie gesagt, das kann viele Ursachen haben: Sie können sich verändert haben durch die Nutzung, die App kann sich unglücklich entwickelt haben oder Ihre Anforderungen haben sich verschoben. Einerlei, früher oder später kann es passieren, dass Sie sich wieder umschauen nach etwas Besserem. Sie **schleichen sich dann langsam raus** aus der Beziehung zur aktuellen App. Die Mühe, die Sie in sie investieren nimmt ab. Sie machen nur noch das Nötigste damit, denn bald könnte es einen besseren Weg geben, die Dinge zu tun. Sie öffnen sich für Impulse zur Erkundung.
+
+Altes und Neues überlappt in der Digitalisierung 2. Ordnung. Bei manchen Werkzeugen sind diese Zyklen länger, bei anderen kürzer. Wenn Sie den maximalen Nutzen aus der Digitalisierung ziehen wollen, können Sie auf solche Zyklen jedoch nicht verzichten.
+
+Wie gesagt, ein solches Vorgehen ist kein Selbstzweck. Es ist ein Vorgehen nach Bedarf. Doch der Bedarf ist nicht künstlich, sondern real. Digitale Werkzeuge kommen an Grenzen. Dann sollten Sie bereit sein zum Wechsel. Damit meine ich nicht das Einspielen eines Updates. Das passiert tendenziell ohnehin mehr und mehr automatisch. Ich meine den Wechsel zu einem anderen Tool eines anderen Herstellers oder gar in eine andere Tool-Kategorie. Slack ist ein Beispiel für eine vor wenigen Jahren neu aufgekommene Tool-Kategorie, Notion ist es für mich auch.
+
+**In der Digitalisierung ist selbst ein „drum prüfe, wer sich ewig bindet“ zu wenig.** Monogamie mag ja noch angehen – aber nur serielle. In der Digitalisierung suchen Sie nicht den einen Werkzeug-Partner zur Bewältigung von Problemen. Sie sind vielmehr ständig offen für neue Angebote. Schon der Gedanke an „ewige Bindung“ lässt Sie in Relation zu den Möglichkeiten und zum Wettbewerb zurückfallen.
+
+## Übung macht den Meister
+
+Das hört sich vielleicht für Sie beängstigend an. Mir gefällt das auch nicht uneingeschränkt. Der Wunsch nach Stabilität ist ganz menschlich. Doch der Geist der Digitalisierung ist nun aus der Flasche und wird nicht wieder unter den Korken wollen. Wo sich das Analoge digital verflüssigt hat, greifen nun ganz andere Evolutionskräfte an. Das Rad kann sich schneller drehen und wird es.
+
+Ich denke, es ist daher angezeigt, die Ruhe auch auf der nächsten Ebene zu suchen. Wenn die Digitalisierung 2. Ordnung bedeutet, bei der Tool-Nutzung im Fluss zu bleiben, dann bedeutet „Ruhe 2. Ordnung“, eben das als Konstante zu sehen – und es deshalb zu üben.
+
+Nehmen Sie sich ein Werkzeug vor, an dem Sie sich heute z.B. auf Ihrem Smartphone schon reiben. Suchen Sie eine Alternative und durchlaufen Sie ganz bewusst die obigen Phasen. Üben Sie den Fluss von einem Tool zum anderen.
+
+Bei dem Dienst [alternativeTo](https://alternativeto.net/) finden Sie zu allen Apps Alternativen. Probieren Sie Todoist statt Wunderlist oder Bear statt Evernote oder Spark statt Outlook oder slides.com statt Powerpoint usw. usf. **Je geschmeidiger Sie im Wechseln werden, desto leichter surfen Sie die Digitalisierungswelle.**

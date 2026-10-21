@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title and page.url != "/" %}{{ title }} · {{ site.name }}{% else %}{{ title or site.name }}{% endif %}</title>
+<meta name="description" content="{{ auszug or beschreibung or site.beschreibung }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="icon" href="/assets/favicon.png" sizes="150x150">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<div class="cibar"></div>
+<header class="site-head"><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/logo.svg" alt="zeitgewinn hamburg" width="268" height="43"></a>
+  <nav class="nav">
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Startseite</a>
+    <a href="/blog/"{% if page.url == "/blog/" or "artikel" in (tags or []) %} aria-current="page"{% endif %}>Blog</a>
+    <a class="btn btn-pink" href="{{ site.neu }}">Zu Work with Ease</a>
+  </nav>
+</div></header>
+<main>
+{{ content | safe }}
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a href="/"><img src="/assets/logo.svg" alt="zeitgewinn hamburg" width="212" height="34"></a>
+  <nav><a href="/blog/">Blog</a><a href="/impressum/">Impressum</a><a href="/datenschutzerklaerung/">Datenschutz</a><a href="{{ site.neu }}">work-with-ease.com</a></nav>
+  <small>© 2011–{{ jahr }} Zeitgewinn Hamburg · Unsere aktuellen Angebote finden Sie bei Work with Ease.</small>
+</div></footer>
+{% if scripts %}{% for s in scripts %}<script src="{{ s }}" defer></script>{% endfor %}{% endif %}
+</body>
+</html>

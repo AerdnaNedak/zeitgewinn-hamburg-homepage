@@ -1,0 +1,84 @@
+---
+title: "Lagerung im Handwerk: Statisch oder chaotisch?"
+date: 2021-08-12T12:15:34
+autor: "Andrea Kaden"
+themen: ["artikel","lean-lager1","tippsundtricks"]
+bild: "/wp-content/uploads/lager-handwerk-600x400.jpg"
+auszug: "Handwerker lagern ihre Artikel meistens statisch und nicht chaotisch. Ist das noch zeitgemäß? In diesem Artikel rede ich über die Vor- und Nachteile beider Belegungsstrategien bei der Lagerung im Handwerk und über deren …"
+permalink: "/lagerung-im-handwerk-statisch-oder-chaotisch/"
+wp_id: 11186
+---
+Handwerker lagern ihre Artikel meistens statisch und nicht chaotisch. Ist das noch zeitgemäß? In diesem Artikel rede ich über die Vor- und Nachteile beider Belegungsstrategien bei der Lagerung im Handwerk und über deren Voraussetzungen innerhalb der Lagerlogistik.
+
+## Statische Lagerung im Handwerk
+
+Die **statische Lagerung** ist eine Form der Belegungsstrategien für Lager. Dabei werden gleiche Artikel an einen immer gleichen, festgelegten, Lagerplatz eingelagert.
+
+Gehe ich also in das Lager eines Metallbauers und schaue mir dort einen bestimmten Lagerplatz X an, so liegt dort immer die Sechskantschraube M8x35 A2 von Würth. Wenn ich einen Schritt zurücktrete, lagern angrenzend an Lagerplatz X weitere Würth-Artikel. Neben der statischen, wird also auch eine lieferanten- bzw. herstellerreine Lagerung verfolgt.
+
+### Vorteile der statischen Lagerung
+
+Daraus ergeben sich Vorteile beim Suchen der Artikel. Benötigen Mitarbeitende einen bestimmten Artikel von Würth, wissen sie von vornherein, in welchem Bereich sie suchen müssen. Mit der Zeit wissen sie sogar genau, an welchem Lagerplatz der Artikel zu finden ist.
+
+Selbiges gilt für die Einlagerung. Nach dem Wareneingang kann ein Verantwortlicher alle Würth-Artikel in den dafür vorgesehenen Bereich bringen und dort die Artikel einlagern. Das spart Wegstrecke und Zeit.
+
+Ein weiterer Vorteil dieser Belegungsart ist die niedrige Einstiegsschwelle. Eine statische Lagerung ist ohne ein entsprechendes Lagerverwaltungssystem umsetzbar, wenn auch unzureichend.
+
+### Nachteile der statischen Lagerung
+
+Zunächst klingt es doch einleuchtend. Meine Mitarbeitenden wissen, wo die Materialien liegen, da sie sich immer am selben Platz befinden. Doch in der Lagerlogistik gibt es weitere Faktoren für ein gut funktionierendes Lager.
+
+**Was, wenn Lagerplatz X überfüllt ist?** Neben dem vorgesehenen Lagerplatz für die Sechskantschraube M8x35 A2 ist zwar ein halbvoller Lagerplatz, aber dort lagert die Sechskantschraube M8x30 A2. Dort kann ich die Schraube also nicht einlagern. Bleibt nur die Eröffnung eines weiteren Lagerplatzes. Mit Glück liegt dieser noch im Lagerbereich des Lieferanten, aber unter Umständen lagert nun der selbe Artikel an 2 völlig unterschiedlichen Orten auf dem Gelände. Aus Erfahrung kann ich sagen, dass dieser Lagerplatz vergessen wird, wenn entsprechender Artikel das nächste Mal gesucht wird. Das Ergebnis sind unnötige Nachbestellungen und gebundenes Kapital.
+
+**Was, wenn ein Lagerplatz fast leer ist?** Für die erneute Einlagerung ist das kein Problem. Aber für die Auslastung der einzelnen Lagerplätze sehr wohl. Wie im vorigen Beispiel (Lagerplatz ist überfüllt) zu sehen, ist im nebenliegenden Lagerplatz zwar Platz, aber es muss dennoch ein komplett neuer Lagerplatz eröffnet werden. Der nebenliegende Lagerplatz bleibt dabei fast leer. Die Folge ist eine geringe Auslastung der Lagerplätze und damit einher geht ein größerer Platzbedarf des gesamten Lagers. Das Lager ist eigentlich groß genug, aber es wirkt trotzdem zu klein.
+
+## Chaotische Lagerung im Handwerk
+
+Die **chaotische Lagerung** ist eine Form der Belegung, bei der Artikel scheinbar willkürlich eingelagert werden. Chaotisch ist dabei allerdings irreführend, da es Chaos impliziert. Bei der chaotischen Lagerung werden Artikel dort eingelagert, wo grade Platz ist. Es existieren keine festgelegten Lagerplätze für bestimmte Artikel oder Lieferanten. Was bei der statischen Lagerung zu Chaos führt, passiert also bei der chaotischen Lagerung geplant.
+
+### Vorteile Chaotische Lagerung
+
+Die Vorteile der chaotischen sind die Nachteile der statischen Lagerung. Durch eine „willkürliche“ Einlagerung auf Lagerplätze, die freie Kapazitäten aufweisen, wird der Nutzungsgrad, genauer der Raumnutzungsgrad (*\= belegtes Lager-Volumen / gesamtes Lager-Volumen \* 100*) deutlich erhöht.
+
+Ein weiterer Vorteil ist die hohe Flexibilität. Wenn Artikel überall eingelagert werden können, dann erfordert eine Änderung des Sortiments keine große Planung. Bei einer statischen Lagerung müssten dann alle Lagerplätze erneut definiert werden.
+
+Der größte Vorteil liegt in der Zeitreduktion beim Suchen der Artikel, doch dazu sind erst die Nachteile zu nennen.
+
+### Nachteile Chaotische Lagerung
+
+Damit bei der chaotischen Lagerung kein Chaos entsteht, sind organisatorische, aber vor allem technische Voraussetzungen zu erfüllen. Während bei der statischen Lagerung mindestens eine Excel-Datei mit Zu- und Abgängen gepflegt werden muss, sieht das bei der chaotischen Lagerung ganz anders aus.
+
+Benötigt wird dazu ein Lagerverwaltungssystem. Innerhalb des Systems werden alle Lagerplätze namentlich definiert. Bei wegeoptimierten Lagern spielen dann noch die Entfernungen zwischen den Lagerplätzen eine Rolle.
+
+Bei jeder gewollten Einlagerung überprüft das System, ob der Artikel bereits im Lager liegt. Falls ja, ob der Lagerplatz voll ist. Falls ja, wird der Artikel dort eingelagert, wo Platz ist. Bei der Einlagerung wird über einen Barcodescanner der Artikel mit dem Lagerplatz verschmolzen. Das System weiß jetzt, dass 400 Sechskantschrauben M8x35 A2 an Lagerplatz X und 300 an Lagerplatz Y liegen. Entsteht nun ein Bedarf von 500 von diesem Artikel, zieht der Mitarbeitende mit einer Kommissionierliste los, die genau beschreibt, was wo zu entnehmen ist: 400 von Lagerplatz X und 100 von Lagerplatz Y.
+
+Jede Entnahme wird über einen Barcode protokolliert und das System weiß, dass sich nur noch 200 Artikel auf Lagerplatz Y liegen. Für die nächste Einlagerung eines Artikels ist Lagerplatz X nun frei geworden.
+
+Je nach Entfernung vom Startpunkt würde das System die Kommissionier-Route anpassen und z.B. erst Lagerplatz Y und dann Lagerplatz X ansteuern. Dadurch wird die Zeit beim Kommissionieren enorm reduziert.
+
+## Empfehlung: Mischstrategie und Voraussetzung im Handwerk
+
+Im Handwerk ist eine Strategie aus statischer und chaotischer Lagerung zu empfehlen. Dabei müssen die Vorteile beider Belegungsstrategien gefördert und deren Nachteile gemindert werden.
+
+Deshalb wird jedem Artikel eine Strategie zugeschrieben. Das funktioniert nach folgenden Kriterien:
+
+1.  Regelmäßigkeit des Bedarfs
+2.  Kosten
+3.  Größe/Gewicht
+
+Statische Lagerartikel sollten sehr regelmäßig benötigt werden (mindestens 1 x pro Monat), sehr günstig und klein sein, bzw. nicht viel Platz im Lager einnehmen. Chaotische Lagerartikel weisen gegenteilige Kriterien auf.
+
+Unterschiedliche Belegungsstrategien haben auch unterschiedliche Bezugsarten zur Folge:
+
+1.  **Statisch gelagerte Artikel** werden mit Meldebeständen und Maximalbeständen versehen. Eine Nachbestellung dieses Artikels wird bei Erreichen des Meldebestands ausgelöst. Die Höhe der Nachbestellung ergibt sich aus der Differenz aus Maximal- und Meldebestand. Damit wird der Lagerplatz nicht überfüllen und ein großer Nachteil der statischen Lagerung vermieden: Es muss kein zweiter Lagerplatz für ein und denselben Artikel eröffnet werden. Statisch gelagerte Artikel werden also nicht für bestimmte Aufträge bestellt und kommissioniert, sondern werden immer bevorratet. Deshalb sollten sie auch nicht teuer sein, damit so wenig Kapital wie nötig gebunden wird.
+2.  **Chaotisch gelagerte Artikel** werden auftragsbezogen bestellt, wenn ein bestimmter Bedarf besteht. Entstehen nach der Auftragsbearbeitung Restmengen, werden diese in das chaotische Lager eingelagert. Wenn ein neuer Auftrag startet, werden im chaotischen Lager eingelagerte Artikel bei der Bestellung mit einberechnet und für den Auftrag geblockt.
+
+## Statische Lagerung noch zeitgemäß?
+
+Nur statisch zu lagern ist nicht mehr zeitgemäß! Es braucht eine Mischstrategie aus statischer und chaotischer Lagerung im Handwerk.
+
+Dafür ist ein Lagerverwaltungssystem eine Grundvoraussetzung. Ein gutes Lagerverwaltungssystem gibt es bereits ab 250 € im Monat. Ein zu hoher Preis ist damit keine Ausrede mehr, kein solches System zu besitzen.
+
+Nehme gern [hier](/kontakt/) mit mir Kontakt auf, falls du Fragen und Anregungen hast.
+
+Weitere Informationen zum Thema Logistik und wie wir Lageroptimierungen angehen, erfährst du [hier](/lean-lager/).

@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Blog
+permalink: /blog/
+scripts: ["/assets/blog.js"]
+---
+{%- set posts = collections.neueste -%}
+<div class="page-head"><div class="wrap"><h1>Blog</h1><p>Archiv mit {{ posts.length }} Artikeln von {{ posts | jahresspanne }}</p></div></div>
+<div class="wrap blog">
+  <aside class="filter">
+    <label class="search"><input id="q" type="search" placeholder="Artikel durchsuchen …" aria-label="Artikel durchsuchen"></label>
+    <details open><summary class="filter-toggle btn btn-line">Nach Thema filtern</summary><div class="filter-body">
+      <ul><li><button type="button" data-thema="" data-match="" aria-pressed="true">Alle Artikel <span>{{ posts.length }}</span></button></li></ul>
+      {%- for g in kategorien | filterGruppen(posts) %}
+      <h2>{{ g.titel }}</h2>
+      <ul>{% for t in g.themen %}<li><button type="button" data-thema="{{ t.slug }}" data-match="{{ t.match }}" aria-pressed="false">{{ t.name }} <span>{{ t.anzahl }}</span></button></li>{% endfor %}</ul>
+      {%- endfor %}
+    </div></details>
+  </aside>
+  <section>
+    <div class="result-info" id="info" aria-live="polite"><span><strong>{{ posts.length }}</strong> Artikel · Alle Themen</span></div>
+    <div class="cards" id="grid">
+      {%- for post in posts %}
+      {% include "karte.njk" %}
+      {%- endfor %}
+    </div>
+    <p id="leer" hidden>Keine Artikel gefunden.</p>
+  </section>
+</div>

@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+<article class="article">
+  <div class="crumb"><a href="/blog/">← Blog</a></div>
+  <div class="tags">{% for t in themen | themenVon(kategorien) %}<a class="tag" href="/blog/?thema={{ t.slug }}">{{ t.name }}</a>{% endfor %}</div>
+  <h1>{{ title }}</h1>
+  <div class="meta"><time datetime="{{ page.date | isoDatum }}">{{ page.date | datum }}</time> · {{ autor }}</div>
+  <div class="notice"><div>Dieser Artikel stammt aus dem Archiv von Zeitgewinn Hamburg. Aktuelle Inhalte finden Sie bei <a href="{{ site.neu }}">Work with Ease →</a></div></div>
+  <div class="prose">
+{{ content | safe }}
+  </div>
+  <div class="after">
+    <h2>Weitere Artikel</h2>
+    <div class="cards">
+      {%- set aktuell = collections.neueste | getCollectionItem(page) -%}
+      {%- for post in collections.neueste | verwandte(aktuell) %}{% include "karte.njk" %}{% endfor %}
+    </div>
+  </div>
+</article>

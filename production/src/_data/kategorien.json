@@ -1,0 +1,247 @@
+[
+  {
+    "id": 75,
+    "name": "Artikel",
+    "slug": "artikel",
+    "parent": 0,
+    "wpPath": "artikel"
+  },
+  {
+    "id": 70,
+    "name": "Aufräumen",
+    "slug": "aufraeumen",
+    "parent": 66,
+    "wpPath": "literaturtipps/aufraeumen"
+  },
+  {
+    "id": 94,
+    "name": "Bewerbermanagement",
+    "slug": "bewerbermanagement",
+    "parent": 0,
+    "wpPath": "22-bewerbermanagement"
+  },
+  {
+    "id": 57,
+    "name": "Büroorganisation",
+    "slug": "bueroorganisation",
+    "parent": 75,
+    "wpPath": "artikel/bueroorganisation"
+  },
+  {
+    "id": 83,
+    "name": "Coole Tools",
+    "slug": "coole-tools",
+    "parent": 0,
+    "wpPath": "coole-tools"
+  },
+  {
+    "id": 3438,
+    "name": "Eigene Bücher",
+    "slug": "eigenebuecher",
+    "parent": 66,
+    "wpPath": "literaturtipps/eigenebuecher"
+  },
+  {
+    "id": 1,
+    "name": "Gastbeiträge",
+    "slug": "gastbeitraege",
+    "parent": 75,
+    "wpPath": "artikel/27-gastbeitraege"
+  },
+  {
+    "id": 87,
+    "name": "Gesundes Arbeiten",
+    "slug": "gesundes-arbeiten",
+    "parent": 75,
+    "wpPath": "artikel/21-gesundes-arbeiten"
+  },
+  {
+    "id": 1195,
+    "name": "Green-Lean-Digital",
+    "slug": "green-lean-digital",
+    "parent": 0,
+    "wpPath": "12-green-lean-digital"
+  },
+  {
+    "id": 86,
+    "name": "Hardware",
+    "slug": "hardware",
+    "parent": 83,
+    "wpPath": "coole-tools/hardware"
+  },
+  {
+    "id": 79,
+    "name": "Home Office",
+    "slug": "homeoffice",
+    "parent": 75,
+    "wpPath": "artikel/31-homeoffice"
+  },
+  {
+    "id": 69,
+    "name": "Kaizen / KVP",
+    "slug": "kaizenkvp",
+    "parent": 66,
+    "wpPath": "literaturtipps/kaizenkvp"
+  },
+  {
+    "id": 77,
+    "name": "Kontinuierliche Verbesserung",
+    "slug": "kontinuierlicheverbesserung",
+    "parent": 75,
+    "wpPath": "artikel/16-kontinuierlicheverbesserung"
+  },
+  {
+    "id": 3493,
+    "name": "Künstliche Intelligenz",
+    "slug": "kuenstliche-intelligenz",
+    "parent": 0,
+    "wpPath": "kuenstliche-intelligenz"
+  },
+  {
+    "id": 548,
+    "name": "Lean Administration",
+    "slug": "lean-administration",
+    "parent": 66,
+    "wpPath": "literaturtipps/lean-administration"
+  },
+  {
+    "id": 98,
+    "name": "Lean Digital Office",
+    "slug": "lean-digital-office-artikel",
+    "parent": 75,
+    "wpPath": "artikel/11-lean-digital-office-artikel"
+  },
+  {
+    "id": 3425,
+    "name": "Lean Lager",
+    "slug": "lean-lager1",
+    "parent": 75,
+    "wpPath": "artikel/lean-lager1"
+  },
+  {
+    "id": 66,
+    "name": "Literaturtipps",
+    "slug": "literaturtipps",
+    "parent": 0,
+    "wpPath": "literaturtipps"
+  },
+  {
+    "id": 3386,
+    "name": "Lösungen aus der Praxis",
+    "slug": "loesungen-aus-der-praxis",
+    "parent": 0,
+    "wpPath": "loesungen-aus-der-praxis"
+  },
+  {
+    "id": 85,
+    "name": "Management",
+    "slug": "management-literaturtipps",
+    "parent": 66,
+    "wpPath": "literaturtipps/management-literaturtipps"
+  },
+  {
+    "id": 96,
+    "name": "Mitarbeiterführung",
+    "slug": "mitarbeiterfuehrung",
+    "parent": 75,
+    "wpPath": "artikel/23-mitarbeiterfuehrung"
+  },
+  {
+    "id": 61,
+    "name": "Mrs. Paperless on tour",
+    "slug": "mrspaperlessisorganizingsf",
+    "parent": 75,
+    "wpPath": "artikel/29-mrspaperlessisorganizingsf"
+  },
+  {
+    "id": 95,
+    "name": "Nachhaltigkeit im Büro",
+    "slug": "nachhaltigkeit-im-buero",
+    "parent": 75,
+    "wpPath": "artikel/19-nachhaltigkeit-im-buero"
+  },
+  {
+    "id": 68,
+    "name": "Office Management",
+    "slug": "officemanagement",
+    "parent": 66,
+    "wpPath": "literaturtipps/officemanagement"
+  },
+  {
+    "id": 90,
+    "name": "Ordner- Laufwerkstruktur",
+    "slug": "ordner-laufwerkstruktur",
+    "parent": 75,
+    "wpPath": "artikel/18-ordner-laufwerkstruktur"
+  },
+  {
+    "id": 81,
+    "name": "Ordnung ist cool",
+    "slug": "ordnung-ist-cool",
+    "parent": 75,
+    "wpPath": "artikel/24-ordnung-ist-cool"
+  },
+  {
+    "id": 78,
+    "name": "Organizer auf der Walz",
+    "slug": "organizeraufderwalz",
+    "parent": 75,
+    "wpPath": "artikel/28-organizeraufderwalz"
+  },
+  {
+    "id": 92,
+    "name": "Papierlose Buchhaltung",
+    "slug": "papierlose-buchhaltung",
+    "parent": 75,
+    "wpPath": "artikel/14-papierlose-buchhaltung"
+  },
+  {
+    "id": 82,
+    "name": "Papierloses Büro",
+    "slug": "papierloses-buero",
+    "parent": 75,
+    "wpPath": "artikel/13-papierloses-buero"
+  },
+  {
+    "id": 80,
+    "name": "Produktivität und Zeitmanagement",
+    "slug": "produktivitaet-und-zeitmanagement",
+    "parent": 75,
+    "wpPath": "artikel/15-produktivitaet-und-zeitmanagement"
+  },
+  {
+    "id": 71,
+    "name": "Selbst- und Zeitmanagement",
+    "slug": "selbstundzeitmanagement",
+    "parent": 66,
+    "wpPath": "literaturtipps/selbstundzeitmanagement"
+  },
+  {
+    "id": 93,
+    "name": "Software",
+    "slug": "software",
+    "parent": 83,
+    "wpPath": "coole-tools/software"
+  },
+  {
+    "id": 76,
+    "name": "Tipps und Tricks",
+    "slug": "tippsundtricks",
+    "parent": 75,
+    "wpPath": "artikel/26-tippsundtricks"
+  },
+  {
+    "id": 88,
+    "name": "Unsere Methoden",
+    "slug": "unsere-methoden",
+    "parent": 75,
+    "wpPath": "artikel/25-unsere-methoden"
+  },
+  {
+    "id": 91,
+    "name": "Wissensmanagement",
+    "slug": "wissensmanagement",
+    "parent": 75,
+    "wpPath": "artikel/17-wissensmanagement"
+  }
+]

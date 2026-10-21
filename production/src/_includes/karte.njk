@@ -1,0 +1,9 @@
+<a class="card" href="{{ post.url }}" data-themen="{{ post.data.themen | join(' ') }}">
+  <div class="card-img">{% if post.data.bild %}<img src="{{ post.data.bild }}" alt="" loading="lazy">{% else %}<span class="card-noimg"><img src="/assets/logo.svg" alt=""></span>{% endif %}</div>
+  <div class="card-body">
+    <time datetime="{{ post.date | isoDatum }}">{{ post.date | datum }}</time>
+    <h3>{{ post.data.title }}</h3>
+    <p>{{ post.data.auszug }}</p>
+    <div class="tags">{% for t in post.data.themen | themenVon(kategorien) %}{% if loop.index <= 3 %}<span class="tag">{{ t.name }}</span>{% endif %}{% endfor %}</div>
+  </div>
+</a>

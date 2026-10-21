@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Weiterleitung · Zeitgewinn Hamburg</title>
+<script>
+// Alte WordPress-Adressen, die es nicht mehr gibt, landen hier.
+// Kategorien führen zum passenden Thema im Blog, Blog-Unterseiten zum Blog, alles andere zur Startseite.
+(function () {
+  var kategorien = {"artikel":"artikel","aufraeumen":"aufraeumen","22-bewerbermanagement":"bewerbermanagement","bewerbermanagement":"bewerbermanagement","bueroorganisation":"bueroorganisation","coole-tools":"coole-tools","eigenebuecher":"eigenebuecher","27-gastbeitraege":"gastbeitraege","gastbeitraege":"gastbeitraege","21-gesundes-arbeiten":"gesundes-arbeiten","gesundes-arbeiten":"gesundes-arbeiten","12-green-lean-digital":"green-lean-digital","green-lean-digital":"green-lean-digital","hardware":"hardware","31-homeoffice":"homeoffice","homeoffice":"homeoffice","kaizenkvp":"kaizenkvp","16-kontinuierlicheverbesserung":"kontinuierlicheverbesserung","kontinuierlicheverbesserung":"kontinuierlicheverbesserung","kuenstliche-intelligenz":"kuenstliche-intelligenz","lean-administration":"lean-administration","11-lean-digital-office-artikel":"lean-digital-office-artikel","lean-digital-office-artikel":"lean-digital-office-artikel","lean-lager1":"lean-lager1","literaturtipps":"literaturtipps","loesungen-aus-der-praxis":"loesungen-aus-der-praxis","management-literaturtipps":"management-literaturtipps","23-mitarbeiterfuehrung":"mitarbeiterfuehrung","mitarbeiterfuehrung":"mitarbeiterfuehrung","29-mrspaperlessisorganizingsf":"mrspaperlessisorganizingsf","mrspaperlessisorganizingsf":"mrspaperlessisorganizingsf","19-nachhaltigkeit-im-buero":"nachhaltigkeit-im-buero","nachhaltigkeit-im-buero":"nachhaltigkeit-im-buero","officemanagement":"officemanagement","18-ordner-laufwerkstruktur":"ordner-laufwerkstruktur","ordner-laufwerkstruktur":"ordner-laufwerkstruktur","24-ordnung-ist-cool":"ordnung-ist-cool","ordnung-ist-cool":"ordnung-ist-cool","28-organizeraufderwalz":"organizeraufderwalz","organizeraufderwalz":"organizeraufderwalz","14-papierlose-buchhaltung":"papierlose-buchhaltung","papierlose-buchhaltung":"papierlose-buchhaltung","13-papierloses-buero":"papierloses-buero","papierloses-buero":"papierloses-buero","15-produktivitaet-und-zeitmanagement":"produktivitaet-und-zeitmanagement","produktivitaet-und-zeitmanagement":"produktivitaet-und-zeitmanagement","selbstundzeitmanagement":"selbstundzeitmanagement","software":"software","26-tippsundtricks":"tippsundtricks","tippsundtricks":"tippsundtricks","25-unsere-methoden":"unsere-methoden","unsere-methoden":"unsere-methoden","17-wissensmanagement":"wissensmanagement","wissensmanagement":"wissensmanagement"};
+  var pfad = location.pathname;
+  var basis = '/';
+  if (/\.github\.io$/.test(location.hostname)) {
+    var erstes = pfad.split('/')[1];
+    if (erstes) { basis = '/' + erstes + '/'; pfad = pfad.slice(basis.length - 1); }
+  }
+  var ziel = '';
+  var m = pfad.match(/^\/category\/(?:[^?#]*\/)?([^/?#]+)\/?$/);
+  if (m && kategorien[m[1]]) ziel = 'blog/?thema=' + encodeURIComponent(kategorien[m[1]]);
+  else if (/^\/(blog|category|tag|author|page|feed|\d{4})(\/|$)/.test(pfad)) ziel = 'blog/';
+  location.replace(basis + ziel);
+})();
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:40px">
+<p>Diese Seite gibt es nicht mehr. Sie werden zur <a href="/">Startseite</a> weitergeleitet.</p>
+</body>
+</html>

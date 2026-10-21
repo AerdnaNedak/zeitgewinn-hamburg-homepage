@@ -1,0 +1,17 @@
+{
+  "name": "zeitgewinn-hamburg-homepage",
+  "private": true,
+  "type": "module",
+  "description": "Produktion der statischen Seite zeitgewinn-hamburg.de",
+  "scripts": {
+    "import": "node scripts/import-wordpress.mjs",
+    "build": "node scripts/clean-output.mjs && eleventy",
+    "serve": "eleventy --serve --port=8412"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

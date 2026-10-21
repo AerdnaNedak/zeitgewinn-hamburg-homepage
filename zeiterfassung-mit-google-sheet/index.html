@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zeiterfassung mit Google Sheets · Zeitgewinn Hamburg</title>
+<meta name="description" content="Eine Kundin, die am Anfang des Aufbaus einer neuen Organisation steht, benötigte ein Werkzeug zur Zeiterfassung. Allerdings gab es dafür sehr spezielle Anforderungen, die wir bisher in keinem der am Markt angebotenen …">
+<link rel="canonical" href="https://zeitgewinn-hamburg.de/zeiterfassung-mit-google-sheet/">
+<link rel="icon" href="../assets/favicon.png" sizes="150x150">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="cibar"></div>
+<header class="site-head"><div class="wrap">
+  <a class="logo" href="../"><img src="../assets/logo.svg" alt="zeitgewinn hamburg" width="268" height="43"></a>
+  <nav class="nav">
+    <a href="../">Startseite</a>
+    <a href="../blog/" aria-current="page">Blog</a>
+    <a class="btn btn-pink" href="https://work-with-ease.com/">Zu Work with Ease</a>
+  </nav>
+</div></header>
+<main>
+<article class="article">
+  <div class="crumb"><a href="../blog/">← Blog</a></div>
+  <div class="tags"><a class="tag" href="../blog/?thema=coole-tools">Coole Tools</a><a class="tag" href="../blog/?thema=kontinuierlicheverbesserung">Kontinuierliche Verbesserung</a><a class="tag" href="../blog/?thema=lean-digital-office-artikel">Lean Digital Office</a><a class="tag" href="../blog/?thema=loesungen-aus-der-praxis">Lösungen aus der Praxis</a><a class="tag" href="../blog/?thema=papierloses-buero">Papierloses Büro</a></div>
+  <h1>Zeiterfassung mit Google Sheets</h1>
+  <div class="meta"><time datetime="2023-01-31">31. Januar 2023</time> · Galina</div>
+  <div class="notice"><div>Dieser Artikel stammt aus dem Archiv von Zeitgewinn Hamburg. Aktuelle Inhalte finden Sie bei <a href="https://work-with-ease.com/">Work with Ease →</a></div></div>
+  <div class="prose">
+<p>Eine unserer Kundinnen hat eine kleine Wohngemeinschaft für “Menschen mit besonderen Anforderungen” gegründet hat. Sie stand am Anfang ihrer Geschäftstätigkeit und viel war noch nicht klar:</p>
+<ul>
+<li>Wieviele “Bewohner” würde sie betreuen?</li>
+<li>Wieviele Mitarbeiter würde sie beschäftigen müssen?</li>
+<li>Wie sollte die Zusammenarbeit am besten organisiert werden?</li>
+</ul>
+<p>Grobe Ideen hatte sie natürlich schon und war damit ins kalte Wasser ihrer Gründung gesprungen. Doch dann stellte sich heraus, dass es schwer für sie war, den Überblick über die Tätigkeiten der Mitarbeiter zu behalten und daraus Abrechnungen abzuleiten, die bei den Kostenträgern akzeptiert würden. Die Zeiterfassung sollte unbedingt zeitnah professioneller werden.</p>
+<p>In dieser Situation sprach sie <a href="../">Zeitgewinn Hamburg</a> an, um mit uns Wege aus einer steigenden Belastung zu finden. Zunächst stand das Problem der Zeiterfassung im Vordergrund: Ohne Erfassung der Betreuungsleistungen im 15min-Takt, die Mitarbeiter für Bewohner der WG erbringen, konnten keine Einnahmen fließen.</p>
+<p>Übliche Zeiterfassungen erwiesen sich leider als nicht tauglich für den Einsatz in diesem Umfeld; entweder war die Erfassung zu umständlich oder die Abrechnung nicht detailliert genug. Als Lösung blieb deshalb nur, eine eigene Zeiterfassung zu entwickeln.</p>
+<p>Um einerseits die Kosten in einem bezahlbaren Rahmen und andererseits die Flexibilität hoch zu halten, haben wir uns dafür entschieden, die Zeiterfassung mit der Tabellenkalkulation Google Sheets zu realisieren. Excel schied aus, weil Mitarbeiter auch auf ihren Smartphones zwischendurch schnell mal angefallene Zeiten erfassen können sollten.</p>
+<h2>Zeiterfassung mit Google Sheets</h2>
+<p>Google Sheets wie Excel ist scheinbar ein Alleskönner. Tabellenkalkulationen halten — gleich nach SAP — die Wirtschaft am Laufen, könnte man meinen. Das hat Vor- und Nachteile.</p>
+<ul>
+<li>IT-Abteilungen sind davon eher nicht begeistert, weil dadurch Fachwissen unkontrolliert über unzählige, gar unbekannte Tabellen verteilt wird. Eine systematische Weiterentwicklung wird enorm erschwert.</li>
+<li>Fachabteilungen andererseits sind oft begeistert, weil sie selbst mit Tabellenkalkulationen pragmatische Lösungen implementieren können, deren professionellere Umsetzung durch die IT-Abteilung zu teuer geworden oder nicht genehmigt worden oder viel zu spät gekommen wäre.</li>
+</ul>
+<p>Die Geschäftsführerin der kleinen Wohngemeinschaft befand sich in einer Situation wie die Fachabteilungen in Großunternehmen: Sie brauchte schnellstmöglich eine pragmatische Lösung, auch wenn die in mancher Hinsicht suboptimal sein würde. Besser Funktionalität jetzt als Perfektion erst nach einer Insolvenz. Ganz zu schweigen vom minimalen Budget, das ihr zur Verfügung stand.</p>
+<p>Also haben wir mit Google Sheet darauf gesetzt, die wesentlichen funktionalen Anforderungen zu erfüllen:</p>
+<ul>
+<li>Erfassung von Arbeitszeiten pro Tag im 15min-Takt für mehrere Mitarbeiter für mehrere Bewohner.</li>
+<li>Zusammenfassung der Arbeitszeiten in einer Übersicht mit allen für die Abrechnung relevanten Zahlen.</li>
+<li>Bedienbarkeit auf dem Smartphone wie auf dem Tischrechner.</li>
+</ul>
+<p>Leider ist die Zeiterfassung im Falle der Kundin sehr “fisselig”. Der administrative Aufwand in der Pflege ist groß. Deshalb sollte es den Mitarbeitern möglichst leicht gemacht werden, präzise zu notieren, wann sie bei wem was geleistet haben. Das geschieht nun in einem Tabellenblatt wie diesem pro Tag:</p>
+<figure><img src="../wp-content/uploads/extern/d45724bf2877.png" alt="Tägliche Erfassung im 15 min Takt"><figcaption><em>Tägliche Zeiterfassung am PC</em></figcaption></figure>
+<ul>
+<li>Vertikal verläuft die Zeit in 15min Schritten.</li>
+<li>Horizontal geht es um die Art der Tätigkeit (z.B. “FL” für Fachleistung); einige werden direkt Bewohnern (z.B. “Marlon”) zugeordnet, andere fallen unabhängig an.</li>
+<li>Im Kreuzungspunkt zwischen Zeit und Tätigkeit tragen die Mitarbeiter ihre Kürzel ein.</li>
+</ul>
+<p>Am Ende der Tagestabelle wird dann schon für den Tag zusammengerechnet, was jeder geleistet hat, z.B. wurde im Bild für “Marlon” 1 Stunde Fachleistung erbracht und Mitarbeiter “s” hat 3,75 Stunden gearbeitet.</p>
+<p>Eine solche Tabelle gibt es für jeden Tag des Monats:</p>
+<figure><img src="../wp-content/uploads/extern/d96dbeaa1ff0.jpg" alt="Tagesblätter für die Erfassung"></figure>
+<p>Das ist nicht sehr übersichtlich; die Benutzerfreundlichkeit lässt im Tagesgeschäft zu wünschen übrig — aber immerhin ist eine Bedienung auf dem Smartphone aus dem Stand möglich.</p>
+<figure><img src="../wp-content/uploads/extern/08296deafa1b.jpg" alt="Tageserfassung durch die Mitarbeiter"><figcaption><em>Tägliche Zeiterfassung auf dem Smartphone</em></figcaption></figure>
+<p>Vor allem jedoch: Die Entwicklungszeit betrug nur wenige Stunden.</p>
+<p>Darin enthalten war auch eine Auswertung des täglichen Zeiterfassung:</p>
+<figure><img src="../wp-content/uploads/extern/7c8986625d03.png" alt="Automatisierte Auswertung der Tageserfassung"></figure>
+<p>Auf einen Blick sieht hier die Geschäftsführerin, wer bei wem wieviel welcher Leistung im Monat erbracht hat. Beispiele:</p>
+<ul>
+<li>Mitarbeiterin “Sabine” hat insgesamt bisher in dem Monat 85,25 Stunden gearbeitet.</li>
+<li>Für Bewohner “Kevin” wurden insgesamt 57,42 Stunden aufgewandt.</li>
+<li>In die allgemeine Tätigkeit “Haushalt” sind 20,25 Stunden geflossen.</li>
+<li>Fachkräfte (“FK”) haben bei “Svenja” 57% der Fachleistungen erbracht.</li>
+</ul>
+<p>Aus dieser Übersicht leitet die Geschäftsführerin monatlich ihre Abrechnungen gegenüber den Kostenträgern ab. Außerdem dient ihr dieses “Dashboard” als Steuerungsinstrument für das Unternehmen, das ihr Belastungen, Leistungsverteilung und Bedarfe zeigt.</p>
+<h2>Entwicklungsprozess</h2>
+<p>Es wäre kostengünstiger gewesen, wenn das Unternehmen eine Standardsoftware hätte einsetzen können. Doch die Anforderungen der Geschäftsführerin waren so spezifisch, dass geringere Kosten mit vielen Lücken und/oder Workarounds hätten erkauft werden müssen. Deshalb hat sie sich darauf eingelassen, durch uns eine maßgeschneiderte Lösung für die Zeiterfassung mit Google Sheets entwickeln zu lassen.</p>
+<p>Wir sind dabei ganz agil vorgegangen und haben inkrementell-iterativ entwickelt. Insgesamt gab es sieben Zyklen aus Anforderungsdefinition, Umsetzung und Vorstellung/Abnahme: Je Zyklus hat Andrea Kaden die Anforderungen zusammen mit der Kundin erhoben und dann an mich weitergegeben. Ich habe daraufhin 1-4 Stunden “programmiert”. Anschließend hat Andrea Kaden das Ergebnis der Kundin präsentiert und Feedback eingeholt. Stets war etwas noch nicht ganz passend und neue Ideen kamen der Kundin beim Ausprobieren.</p>
+<p>Bis zur letzten “Runde” gab es nur Zeiterfassungsblätter für drei Tage und die Zusammenfassung. Auf die Weise konnte ich Änderungen schnell für alle Tage umsetzen. Erst ganz am Ende wurden aus drei Tagen 31, um eine Vorlage für Monate mit den verschiedenen Tagesanzahlen zu bekommen.</p>
+<p>Die Kundin kopiert nun jeden Monat die Vorlage mit insgesamt 31+5 Tabellenblättern für einen frischen Start. Dass sie auf diese Weise keine Zusammenschau aller Daten über das ganze Jahr bekommt, weil jeder Monat in einem eigenen Google Sheet eingeschlossen ist, stört sie einstweilen nicht. Ob das je wichtig wird, steht in den Sternen. Auch das gehört zur Agilität: vorzeitige Optimierung vermeiden.</p>
+<p>Wesentliches Kriterium für diesen Teil unserer Arbeit für die Kundin war, ihr zügig eine Lösung zu liefern, mit der sie so abrechnen kann, wie sie es braucht. Genau das leistet die Google Sheet “App”. Nicht mehr, nicht weniger. Die Kundin ist zufrieden; ihre Mitarbeiter kommen mit der Bedienung der Zeiterfassung mit Google Sheets genügend gut zurecht.</p>
+<h2>Fazit</h2>
+<p>Wir haben für die “Zeiterfassung” über die Arbeit in der Wohngemeinschaft ganz pragmatisch eine Lösung für hier und jetzt realisiert. Die ist hochgradig branchen-, sogar unternehmensspezifisch. Sie ist maßgeschneidert. Aber sie ist weit flexibler als üblicherweise Branchensoftware ist, weil sie mit einem “Programmierwerkzeug” entwickelt wurde, das ein sehr hohes Abstraktionsniveau bietet. Dadurch war die Entwicklung auch sehr schnell.</p>
+<p>Angesichts der Unsicherheit darüber, was die Kundin denn wirklich braucht — sie wusste es selbst nur sehr grob —, haben wir das für den passenden Ansatz gehalten. Das Ergebnis ist deshalb vor allem funktional — in der Bedienung aber nicht geschmeidig. Die “App” ist vor allem ein handwerklicher Prototyp und kein stromlinienförmiges Industrieprodukt. Wie lange der der Kundin taugt, wird sich zeigen.</p>
+<p>Nachhaltige Entwicklung mit einer Lösung “für die Ewigkeit” wäre für ihre Situation nicht das Richtige gewesen. Dafür wäre viel mehr Klarheit in den Anforderungen nötig. Nachhaltigkeit hat Voraussetzungen und ist kein Selbstzweck, auch wenn der Begriff derzeit in aller Munde ist und pauschal mehr gefordert wird.</p>
+<p>Im Prozess der Entwicklung einer Lösung konnten wir Unklarheiten mit der Kundin schrittweise ausräumen. Dabei hat uns Google Sheet sehr geholfen. Dem Geschäft der Kundin hat gedient, dass eine Lösung quasi “im Selbstbau” möglich war, ohne den ganzen Overhead einer “richtigen” Softwareproduktion. Der Geschwindigkeit hat dabei gedient, dass sie persönlich eng eingebunden war.</p>
+<p>Wir freuen uns, pragmatisch eine Lösung geliefert zu haben. Ob es beim nächsten Kunden wieder Google Sheet sein sollte, wird sich zeigen. Wir sind da nicht festgelegt. Tool und Lösung müssen zur Situation passen.</p>
+<hr>
+<p><em>Dieser Artikel erschien zum ersten Mal in meinem Newsletter bei Substack <a href="https://workwithease.substack.com/p/case-study-zeiterfassung-mit-google">hier</a> im October 2022. Dort finden Sie auch weitere Artikel und können den Newsletter per E-Mail abonnieren.</em></p>
+
+  </div>
+  <div class="after">
+    <h2>Weitere Artikel</h2>
+    <div class="cards"><a class="card" href="../regeln-fuer-ki-im-office/" data-themen="artikel green-lean-digital kuenstliche-intelligenz lean-digital-office-artikel loesungen-aus-der-praxis">
+  <div class="card-img"><img src="../wp-content/uploads/image-1-2-600x600.png" alt="" loading="lazy"></div>
+  <div class="card-body">
+    <time datetime="2023-04-25">25. April 2023</time>
+    <h3>Regeln für KI im Office</h3>
+    <p>ChatGPT &amp; Co haben sich schnell in die Herzen und Alltag von vielen Menschen im Berufs- und Privatleben gespielt. Diese neuen Werkzeuge eröffnen uns viele Chancen, nicht nur effizienter zu werden, sondern auch kreativer. Aber …</p>
+    <div class="tags"><span class="tag">Green-Lean-Digital</span><span class="tag">Künstliche Intelligenz</span><span class="tag">Lean Digital Office</span></div>
+  </div>
+</a>
+<a class="card" href="../ki-als-copilot-fuer-die-assistenz/" data-themen="artikel green-lean-digital kontinuierlicheverbesserung kuenstliche-intelligenz lean-digital-office-artikel">
+  <div class="card-img"><img src="../wp-content/uploads/image-10-600x600.png" alt="" loading="lazy"></div>
+  <div class="card-body">
+    <time datetime="2023-04-18">18. April 2023</time>
+    <h3>KI als Copilot für die Assistenz</h3>
+    <p>KI in Form von ChatGPT &amp; Co sind hervorragende neue Werkzeuge im Office-Alltag, um produktiver und ja, auch kreativer, zu werden. Neugier statt Angst ist angezeigt im Umgang mit diesen Werkzeugen, die wie andere Werkzeuge auch …</p>
+    <div class="tags"><span class="tag">Green-Lean-Digital</span><span class="tag">Kontinuierliche Verbesserung</span><span class="tag">Künstliche Intelligenz</span></div>
+  </div>
+</a>
+
+    </div>
+  </div>
+</article>
+
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a href="../"><img src="../assets/logo.svg" alt="zeitgewinn hamburg" width="212" height="34"></a>
+  <nav><a href="../blog/">Blog</a><a href="../impressum/">Impressum</a><a href="../datenschutzerklaerung/">Datenschutz</a><a href="https://work-with-ease.com/">work-with-ease.com</a></nav>
+  <small>© 2011–2026 Zeitgewinn Hamburg · Unsere aktuellen Angebote finden Sie bei Work with Ease.</small>
+</div></footer>
+
+</body>
+</html>
