@@ -13,8 +13,7 @@ WORK WITH EASE EOOD
 vertreten durch Andrea Kaden  
 ul. Bor 4, 2777 Dobrinishte, Bulgarien
 
-E-Mail: [info@zeitgewinn-hamburg.de](mailto:info@zeitgewinn-hamburg.de) oder [andrea@work-with-ease.eu](mailto:andrea@work-with-ease.eu)  
-Telefon: +49 176 10335862
+E-Mail: [contact@work-with-ease.com](mailto:contact@work-with-ease.com)
 
 ## Hosting bei GitHub Pages
 
@@ -62,9 +61,9 @@ Einige ältere Artikel enthalten Partnerlinks zu Amazon. Anbieter ist die Amazon
 
 Weitere Informationen finden Sie in der [Datenschutzerklärung von Amazon](https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010).
 
-## Kontakt per E-Mail oder Telefon
+## Kontakt per E-Mail
 
-Wenn Sie uns per E-Mail oder Telefon kontaktieren, verarbeiten wir Ihre Angaben, um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, wenn Ihre Anfrage mit einem Vertrag zusammenhängt, und sonst Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, wenn sie für die Bearbeitung nicht mehr nötig sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre Angaben, um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, wenn Ihre Anfrage mit einem Vertrag zusammenhängt, und sonst Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, wenn sie für die Bearbeitung nicht mehr nötig sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
 ## Ihre Rechte
 
@@ -78,7 +77,7 @@ Sie haben jederzeit das Recht auf
 - Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO nach Art. 21 DSGVO,
 - Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft nach Art. 7 Abs. 3 DSGVO.
 
-Wenden Sie sich dazu einfach an die oben genannten Kontaktdaten.
+Wenden Sie sich dazu einfach per E-Mail an [contact@work-with-ease.com](mailto:contact@work-with-ease.com).
 
 Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem EU-Mitgliedstaat, in dem Sie wohnen oder arbeiten. Für uns zuständig ist die bulgarische Kommission für den Schutz personenbezogener Daten (Комисия за защита на личните данни), bul. Prof. Tsvetan Lazarov 2, 1592 Sofia, Bulgarien, [www.cpdp.bg](https://www.cpdp.bg/).
 

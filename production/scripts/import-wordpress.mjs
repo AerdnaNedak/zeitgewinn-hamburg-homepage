@@ -1,4 +1,4 @@
-// Importiert Blogartikel, Themen, Impressum und Datenschutz aus WordPress.
+// Importiert Blogartikel und Themen aus WordPress.
 //
 //   npm run import              nutzt die zwischengespeicherten Rohdaten in raw/
 //   npm run import -- --refresh lädt die Rohdaten neu von zeitgewinn-hamburg.de
@@ -6,11 +6,11 @@
 // Ergebnis:
 //   src/artikel/<slug>.md        ein Artikel pro Datei, mit Front Matter
 //   src/_data/kategorien.json    die WordPress-Kategorien
-//   src/impressum.md
-//
-// Die Datenschutzerklärung wird nicht importiert. Sie ist für die statische Seite neu
-// geschrieben und wird in src/datenschutzerklaerung.md von Hand gepflegt.
 //   src/wp-content/uploads/...   Bilder und Downloads, Pfade wie im alten WordPress
+//
+// Impressum und Datenschutzerklärung werden nicht importiert. Sie sind für die statische
+// Seite neu geschrieben und werden in src/impressum.md und src/datenschutzerklaerung.md
+// von Hand gepflegt.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -316,15 +316,7 @@ function shorten(text, max = 230) {
 
 const posts = await cached('posts.json', () => fetchAll('posts', '&_embed=wp:featuredmedia'));
 const categories = await cached('categories.json', () => fetchAll('categories'));
-const pages = await cached('pages.json', async () => {
-  const out = [];
-  for (const slug of ['impressum']) {
-    const { data } = await getJSON(`${API}/pages?slug=${slug}`);
-    out.push(...data);
-  }
-  return out;
-});
-console.log(`${posts.length} Artikel, ${categories.length} Themen, ${pages.length} Seiten`);
+console.log(`${posts.length} Artikel, ${categories.length} Themen`);
 
 // Themen: WordPress-Slugs ohne Nummernpräfix, alter URL-Pfad für Weiterleitungen.
 const catById = new Map(categories.map((c) => [c.id, c]));
@@ -352,9 +344,6 @@ const prepared = posts.map((p) => {
   const featured = (sizes.medium_large || sizes.large || sizes.full || {}).source_url || fm?.source_url;
   return { p, link, $: prepare(p.content.rendered), featuredKey: featured ? wantMedia(featured) : null };
 });
-const preparedPages = pages
-  .filter((p) => p.slug === 'impressum')
-  .map((p) => ({ p, $: prepare(p.content.rendered) }));
 
 const keys = [...media.keys()];
 console.log(`lade ${keys.length} Dateien (vorhandene werden übersprungen) …`);
@@ -391,10 +380,6 @@ for (const { p, link, $, featuredKey } of prepared) {
   await fs.writeFile(path.join(POSTS_DIR, `${p.slug}.md`), front.join('\n') + body);
 }
 
-for (const { p, $ } of preparedPages) {
-  const front = ['---', `title: ${yaml(decodeEntities(p.title.rendered))}`, 'layout: seite.njk', `permalink: ${yaml(`/${p.slug}/`)}`, '---', ''];
-  await fs.writeFile(path.join(SRC, `${p.slug}.md`), front.join('\n') + toMarkdown(finish($)));
-}
 
 await fs.mkdir(path.join(SRC, '_data'), { recursive: true });
 await fs.writeFile(path.join(SRC, '_data/kategorien.json'), JSON.stringify(themen, null, 2) + '\n');

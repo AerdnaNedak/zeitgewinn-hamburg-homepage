@@ -12,8 +12,7 @@ mit allen Artikeln aus WordPress sowie Impressum und Datenschutzerklärung.
   und `production/` wird erzeugt und nicht von Hand bearbeitet.
 - **production/**: das Material für die Publikation.
   - `src/artikel/` ein Artikel pro Markdown-Datei
-  - `src/impressum.md` aus WordPress importiert
-  - `src/datenschutzerklaerung.md` von Hand gepflegt, der Import überschreibt sie nicht
+  - `src/impressum.md`, `src/datenschutzerklaerung.md` von Hand gepflegt, der Import überschreibt sie nicht
   - `src/index.njk`, `src/blog.njk`, `src/404.njk` und `src/_includes/` die Vorlagen
   - `src/assets/` Stylesheet, Schriften, Logo, Foto
   - `src/wp-content/uploads/` Bilder und Downloads, Pfade wie im alten WordPress
