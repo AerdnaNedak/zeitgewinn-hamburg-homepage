@@ -8,8 +8,9 @@ mit allen Artikeln aus WordPress sowie Impressum und Datenschutzerklärung.
 
 ## Aufbau
 
-- **Wurzel des Repos**: die Publikation. Alles hier außer `README.md`, `.nojekyll`, `.gitignore`
-  und `production/` wird erzeugt und nicht von Hand bearbeitet.
+- **Wurzel des Repos**: die Publikation. Alles hier außer `README.md`, `CNAME`, `.nojekyll`,
+  `.gitignore` und `production/` wird erzeugt und nicht von Hand bearbeitet.
+  `CNAME` enthält die eigene Domain und wird von GitHub verwaltet.
 - **production/**: das Material für die Publikation.
   - `src/artikel/` ein Artikel pro Markdown-Datei
   - `src/impressum.md`, `src/datenschutzerklaerung.md` von Hand gepflegt, der Import überschreibt sie nicht
@@ -38,7 +39,8 @@ Zeigt die erzeugte Seite unter http://localhost:8411 so an, wie GitHub Pages sie
 npm run veroeffentlichen -- "Was sich geändert hat"
 ```
 
-Baut die Seite, committet Quelle und Publikation zusammen und pusht nach GitHub.
+Übernimmt zuerst Änderungen, die direkt bei GitHub gemacht wurden, etwa die Datei `CNAME`.
+Danach baut es die Seite, committet Quelle und Publikation zusammen und pusht nach GitHub.
 GitHub Pages liefert die neue Fassung ein bis zwei Minuten später aus.
 Ohne eigene Nachricht wird das Datum als Commit-Nachricht verwendet.
 
