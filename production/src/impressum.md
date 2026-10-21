@@ -5,7 +5,7 @@ permalink: "/impressum/"
 ---
 **zeitgewinn hamburg** gehört zur Firma:
 
-**Work With Ease EOOD**  
+**WORK WITH EASE EOOD**  
 CEO Andrea Kaden
 
 UIC: 205889057, VAT: BG205889057

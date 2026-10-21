@@ -288,6 +288,7 @@ function toMarkdown(html) {
   return turndown
     .turndown(html)
     .replace(/\u00a0/g, ' ') // geschützte Leerzeichen aus WordPress verhindern sonst den Zeilenumbruch
+    .replace(/\bwork with ease\b/gi, 'WORK WITH EASE') // Markenname immer groß, Adressen bleiben unberührt
     .replace(/[ \t]+$/gm, (m) => (m.length >= 2 ? '  ' : '')) // Markdown-Zeilenumbrüche behalten, Rest kürzen
     .replace(/\n{3,}/g, '\n\n')
     .trim() + '\n';

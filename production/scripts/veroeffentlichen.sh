@@ -19,16 +19,18 @@ echo "Baue die Seite …"
 npm run --silent build >/dev/null
 
 git -C "$REPO" add -A
-if git -C "$REPO" diff --cached --quiet; then
+if ! git -C "$REPO" diff --cached --quiet; then
+  echo "Geänderte Dateien:"
+  git -C "$REPO" diff --cached --stat | tail -1
+  nachricht="${1:-Seite aktualisiert am $(date '+%d.%m.%Y %H:%M')}"
+  git -C "$REPO" commit -q -m "$nachricht"
+fi
+
+git -C "$REPO" fetch -q origin main
+if [ -z "$(git -C "$REPO" log --oneline origin/main..main)" ]; then
   echo "Keine Änderungen, nichts zu veröffentlichen."
   exit 0
 fi
-
-echo "Geänderte Dateien:"
-git -C "$REPO" diff --cached --stat | tail -1
-
-nachricht="${1:-Seite aktualisiert am $(date '+%d.%m.%Y %H:%M')}"
-git -C "$REPO" commit -q -m "$nachricht"
 git -C "$REPO" push -q origin main
 echo "Veröffentlicht: $(git -C "$REPO" log --oneline -1)"
 echo "GitHub Pages braucht danach ein bis zwei Minuten, bis die neue Fassung online ist."

@@ -8,7 +8,7 @@ auszug: "Für erfolgreiche Kollaboration im Team sind viele Bausteine nötig. Na
 permalink: "/die-kollaboration-in-einem-internationalen-team-organisieren/"
 wp_id: 11899
 ---
-Selten beginnt die Zusammenarbeit “auf der grünen Wiese”. Meistens ist irgendwer schon da und arbeitet irgendwie zusammen, wenn man selbst dazu kommt oder etwas verändern will. Manchmal jedoch ergibt sich die Möglichkeit, die Zusammenarbeit ohne Altlasten aufzusetzen. Genau das ist uns Ende 2022 aufgetragen worden, als [Work With Ease EOOD](https://work-with-ease.eu/) Partner in einem EU-Projekt geworden ist. Nun gilt es die Kollaboration im Team konkret zu gestalten.
+Selten beginnt die Zusammenarbeit “auf der grünen Wiese”. Meistens ist irgendwer schon da und arbeitet irgendwie zusammen, wenn man selbst dazu kommt oder etwas verändern will. Manchmal jedoch ergibt sich die Möglichkeit, die Zusammenarbeit ohne Altlasten aufzusetzen. Genau das ist uns Ende 2022 aufgetragen worden, als [WORK WITH EASE EOOD](https://work-with-ease.eu/) Partner in einem EU-Projekt geworden ist. Nun gilt es die Kollaboration im Team konkret zu gestalten.
 
 <figure><img src="/wp-content/uploads/extern/843c7aca3022.jpg" alt="Soul Mate Logo"></figure>
 
@@ -17,7 +17,7 @@ Im Projekt *[Soul Mate](https://kopfhandundfuss.de/projekte/soul-mate/)* geht es
 Die insgesamt 5 Partnerunternehmen kannten sich nur sehr begrenzt vor Projektstart und hatte auch nur vereinzelt miteinander gearbeitet. Es gab also keine etablierte Organisation der Zusammenarbeit. Einzig vorgegeben war durch die Sache und den EU-Projektantrag ein grober Prozess in Form von Meilensteinen, für die jeweils ein Partnerunternehmen die Verantwortung haben würde:
 
 1.  [SATIS – Centro Clinico di Psicologia, Rom](https://www.satiscentroclinico.com/) (Italien), ist für die psychologische Recherche, Analyse und Konzepterstellung zuständig
-2.  [Work With Ease EOOD, Sofia (Bulgarien)](https://work-with-ease.eu/), ist für die digitalen Tools zur Umsetzung des Konzepts zuständig.
+2.  [WORK WITH EASE EOOD, Sofia (Bulgarien)](https://work-with-ease.eu/), ist für die digitalen Tools zur Umsetzung des Konzepts zuständig.
 3.  [People First, Pesc (Ungarn)](https://peoplefirst.hu/), prüft die Umsetzung auf ihre Tauglichkeit für Menschen mit Behinderungen.
 4.  [VSBI, Erfurt,](https://vsbi.eu/) erarbeitet die Projektdokumentation für verschiedene Stakeholder.
 

@@ -53,7 +53,7 @@ body.home .hero .wrap{width:100%}
 .hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:center;padding-top:64px;padding-bottom:64px}
 .eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--pink-ink);margin-bottom:12px}
 .hero h1{font-size:clamp(32px,4.4vw,50px);line-height:1.15;font-weight:600;margin:0 0 18px;color:var(--ink)}
-.hero h1 span{color:var(--green-ink)}
+.hero h1 span{color:var(--green-ink);white-space:nowrap}
 .hero p{font-size:19px;color:var(--muted);margin:0 0 28px;max-width:34em}
 .hero small{display:block;margin-top:18px;color:var(--muted);font-size:14px}
 .hero small a{color:inherit}

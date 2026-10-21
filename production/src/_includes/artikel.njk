@@ -6,7 +6,7 @@ layout: base.njk
   <div class="tags">{% for t in themen | themenVon(kategorien) %}<a class="tag" href="/blog/?thema={{ t.slug }}">{{ t.name }}</a>{% endfor %}</div>
   <h1>{{ title }}</h1>
   <div class="meta"><time datetime="{{ page.date | isoDatum }}">{{ page.date | datum }}</time> · {{ autor }}</div>
-  <div class="notice"><div>Dieser Artikel stammt aus dem Archiv von Zeitgewinn Hamburg. Aktuelle Inhalte finden Sie bei <a href="{{ site.neu }}">Work with Ease →</a></div></div>
+  <div class="notice"><div>Dieser Artikel stammt aus dem Archiv von Zeitgewinn Hamburg. Aktuelle Inhalte finden Sie bei <a href="{{ site.neu }}">WORK WITH EASE →</a></div></div>
   <div class="prose">
 {{ content | safe }}
   </div>
