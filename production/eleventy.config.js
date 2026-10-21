@@ -64,6 +64,32 @@ export default function (eleventyConfig) {
     JSON.stringify(Object.fromEntries(themen.flatMap((t) => [[t.wpPath.split('/').pop(), t.slug], [t.slug, t.slug]]))),
   );
 
+  // Eingebettete Videos laden erst nach einem Klick. Bis dahin zeigt die Seite einen Platzhalter
+  // und baut keine Verbindung zu YouTube oder Loom auf. Läuft vor relativeLinks.
+  eleventyConfig.addTransform('videosPerKlick', function (content) {
+    if (!this.page.outputPath?.endsWith('.html') || !content.includes('<iframe')) return content;
+    const attr = (tag, name) => (tag.match(new RegExp(`\\s${name}="([^"]*)"`)) || [])[1] || '';
+    let ersetzt = 0;
+    const html = content.replace(/<iframe\b[^>]*>\s*<\/iframe>/g, (tag) => {
+      const src = attr(tag, 'src');
+      let host;
+      try { host = new URL(src).hostname; } catch { return tag; }
+      const anbieter = /youtube/.test(host) ? 'YouTube' : /loom\.com$/.test(host) ? 'Loom' : null;
+      if (!anbieter) return tag;
+      const id = (src.match(/\/embed\/([^/?#]+)/) || [])[1];
+      const direkt = anbieter === 'YouTube' ? `https://www.youtube.com/watch?v=${id}` : `https://www.loom.com/share/${id}`;
+      const titel = attr(tag, 'title');
+      const zeigeTitel = titel && !/^(YouTube video player|Eingebettetes Video)$/i.test(titel);
+      ersetzt++;
+      return `<div class="embed" data-src="${src}" data-title="${titel || 'Video'}">
+<button type="button" class="embed-play"><span class="embed-icon" aria-hidden="true"></span><span class="embed-label">${zeigeTitel ? titel : 'Video'} abspielen</span><span class="embed-hint">Lädt das Video von ${anbieter}</span></button>
+<p class="embed-note">Erst mit dem Klick wird eine Verbindung zu ${anbieter} aufgebaut und Ihre IP-Adresse übertragen. Mehr dazu in der <a href="/datenschutzerklaerung/">Datenschutzerklärung</a>. Oder direkt <a href="${direkt}">auf ${anbieter} ansehen</a>.</p>
+</div>`;
+    });
+    if (!ersetzt) return content;
+    return html.replace('</body>', '<script src="/assets/embed.js" defer></script>\n</body>');
+  });
+
   // Alle Links relativ machen. So funktioniert die Seite unter der eigenen Domain
   // genauso wie unter github.io/<repo>/ oder lokal.
   eleventyConfig.addTransform('relativeLinks', function (content) {

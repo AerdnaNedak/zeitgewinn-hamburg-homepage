@@ -36,9 +36,11 @@ Die Seite wird verschlüsselt per HTTPS übertragen. Sie erkennen das an „http
 
 Einige Artikel enthalten Videos von YouTube. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
 
-Wir binden die Videos im erweiterten Datenschutzmodus über die Adresse youtube-nocookie.com ein. Sobald Sie in einem solchen Artikel zum Video scrollen, baut Ihr Browser eine Verbindung zu Servern von Google auf. Dabei werden mindestens Ihre IP-Adresse und die Adresse der aufgerufenen Seite übertragen. Erst wenn Sie das Video abspielen, kann YouTube weitere Daten erheben und Informationen auf Ihrem Gerät speichern. Sind Sie bei einem Google-Konto angemeldet, kann YouTube das Abspielen Ihrem Konto zuordnen. Eine Übermittlung an die Google LLC in den USA ist möglich. Google ist nach dem EU-US Data Privacy Framework zertifiziert.
+Die Videos werden nicht automatisch geladen. Stattdessen sehen Sie einen Platzhalter. Solange Sie nicht darauf klicken, baut Ihr Browser keine Verbindung zu YouTube auf, und es werden keine Daten an Google übertragen.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt darin, Inhalte der Artikel anschaulich zu zeigen.
+Erst wenn Sie auf den Platzhalter klicken, wird das Video im erweiterten Datenschutzmodus über die Adresse youtube-nocookie.com geladen und abgespielt. Dabei werden mindestens Ihre IP-Adresse und die Adresse der aufgerufenen Seite an Google übertragen. YouTube kann dann weitere Daten erheben und Informationen auf Ihrem Gerät speichern. Sind Sie bei einem Google-Konto angemeldet, kann YouTube das Abspielen Ihrem Konto zuordnen. Eine Übermittlung an die Google LLC in den USA ist möglich. Google ist nach dem EU-US Data Privacy Framework zertifiziert.
+
+Rechtsgrundlage ist Ihre Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO, die Sie mit dem Klick auf den Platzhalter erteilen. Sie gilt nur für das jeweilige Video und den aktuellen Seitenaufruf. Beim nächsten Besuch erscheint wieder der Platzhalter.
 
 Weitere Informationen finden Sie in der [Datenschutzerklärung von Google](https://policies.google.com/privacy?hl=de).
 
@@ -46,9 +48,9 @@ Weitere Informationen finden Sie in der [Datenschutzerklärung von Google](https
 
 Ein Artikel enthält ein Video des Dienstes Loom. Anbieter ist die Loom, Inc., USA, ein Unternehmen der Atlassian-Gruppe.
 
-Sobald Sie in diesem Artikel zum Video scrollen, baut Ihr Browser eine Verbindung zu Servern von Loom auf. Dabei werden mindestens Ihre IP-Adresse und die Adresse der aufgerufenen Seite übertragen. Wenn Sie das Video abspielen, kann Loom weitere Nutzungsdaten erheben. Die Daten können in den USA verarbeitet werden.
+Auch dieses Video wird erst geladen, wenn Sie auf den Platzhalter klicken. Vorher werden keine Daten an Loom übertragen. Mit dem Klick baut Ihr Browser eine Verbindung zu Servern von Loom auf. Dabei werden mindestens Ihre IP-Adresse und die Adresse der aufgerufenen Seite übertragen. Beim Abspielen kann Loom weitere Nutzungsdaten erheben. Die Daten können in den USA verarbeitet werden.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt darin, Inhalte des Artikels anschaulich zu zeigen.
+Rechtsgrundlage ist Ihre Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO, die Sie mit dem Klick auf den Platzhalter erteilen. Sie gilt nur für den aktuellen Seitenaufruf.
 
 Weitere Informationen finden Sie in der [Datenschutzerklärung von Atlassian, zu der Loom gehört](https://www.atlassian.com/legal/privacy-policy).
 
@@ -73,7 +75,8 @@ Sie haben jederzeit das Recht auf
 - Löschung nach Art. 17 DSGVO,
 - Einschränkung der Verarbeitung nach Art. 18 DSGVO,
 - Datenübertragbarkeit nach Art. 20 DSGVO,
-- Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO nach Art. 21 DSGVO.
+- Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO nach Art. 21 DSGVO,
+- Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft nach Art. 7 Abs. 3 DSGVO.
 
 Wenden Sie sich dazu einfach an die oben genannten Kontaktdaten.
 
