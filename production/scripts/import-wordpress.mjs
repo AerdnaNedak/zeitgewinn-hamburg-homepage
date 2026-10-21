@@ -6,7 +6,10 @@
 // Ergebnis:
 //   src/artikel/<slug>.md        ein Artikel pro Datei, mit Front Matter
 //   src/_data/kategorien.json    die WordPress-Kategorien
-//   src/impressum.md, src/datenschutzerklaerung.md
+//   src/impressum.md
+//
+// Die Datenschutzerklärung wird nicht importiert. Sie ist für die statische Seite neu
+// geschrieben und wird in src/datenschutzerklaerung.md von Hand gepflegt.
 //   src/wp-content/uploads/...   Bilder und Downloads, Pfade wie im alten WordPress
 
 import fs from 'node:fs/promises';
@@ -315,7 +318,7 @@ const posts = await cached('posts.json', () => fetchAll('posts', '&_embed=wp:fea
 const categories = await cached('categories.json', () => fetchAll('categories'));
 const pages = await cached('pages.json', async () => {
   const out = [];
-  for (const slug of ['impressum', 'datenschutzerklaerung']) {
+  for (const slug of ['impressum']) {
     const { data } = await getJSON(`${API}/pages?slug=${slug}`);
     out.push(...data);
   }
@@ -349,7 +352,9 @@ const prepared = posts.map((p) => {
   const featured = (sizes.medium_large || sizes.large || sizes.full || {}).source_url || fm?.source_url;
   return { p, link, $: prepare(p.content.rendered), featuredKey: featured ? wantMedia(featured) : null };
 });
-const preparedPages = pages.map((p) => ({ p, $: prepare(p.content.rendered) }));
+const preparedPages = pages
+  .filter((p) => p.slug === 'impressum')
+  .map((p) => ({ p, $: prepare(p.content.rendered) }));
 
 const keys = [...media.keys()];
 console.log(`lade ${keys.length} Dateien (vorhandene werden übersprungen) …`);
