@@ -54,6 +54,20 @@ Das funktioniert nur, solange WordPress noch läuft. Ein Import überschreibt di
 
 ## Alte Adressen
 
-Die Artikel liegen unter denselben Adressen wie in WordPress. Alle anderen alten Adressen
+Die Artikel liegen unter denselben Adressen wie in WordPress. Zwölf gezielt ausgewählte
+Adressen führen sofort zu den entsprechenden aktuellen Seiten bei WORK WITH EASE.
+Die Zuordnungen stehen zentral in `production/redirects.json`. Der Build ersetzt die
+Ausgabe von vier umgezogenen Artikeln und ergänzt acht bisher fehlende Pfade; sämtliche
+Artikelquellen und die übrigen Archivseiten bleiben erhalten.
+
+GitHub Pages kann hier keine eigenen HTTP-301-Regeln ausführen. Deshalb enthalten diese
+zwölf HTML-Seiten einen sofortigen Meta-Refresh, den kanonischen Ziel-Link und einen
+sichtbaren Link. JavaScript erhält zusätzlich URL-Parameter und alte Fragmente; ein im
+Mapping festgelegtes Fragment wie `#format-beratung` hat Vorrang. Ohne JavaScript führt
+der Meta-Refresh zum festgelegten Ziel. Es werden keine HTTP-301-Statuscodes behauptet.
+`npm test` in `production/` baut die Seite und prüft alle zwölf erzeugten Weiterleitungen,
+URL-Verhalten, Mapping-Gültigkeit und den Erhalt der Artikel im Archiv.
+
+Alle anderen alten Adressen
 landen auf der Seite `404.html`. Sie leitet alte Kategorien auf den passenden Themenfilter im Blog
 weiter, alte Blog-Unterseiten auf den Blog und alles Übrige auf die Startseite.

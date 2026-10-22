@@ -6,6 +6,7 @@
   "scripts": {
     "import": "node scripts/import-wordpress.mjs",
     "build": "node scripts/clean-output.mjs && eleventy",
+    "test": "npm run build && node --test tests/*.test.mjs",
     "serve": "eleventy --serve --port=8412",
     "veroeffentlichen": "bash scripts/veroeffentlichen.sh"
   },

@@ -1,6 +1,7 @@
 // Eleventy baut aus production/src die Seite in die Wurzel des Repos.
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { redirects, redirectOutputPath, renderRedirect } from './scripts/redirects.mjs';
 
 const MANIFEST = path.resolve(import.meta.dirname, '../.build-manifest.json');
 
@@ -14,6 +15,9 @@ const GRUPPEN = [
 ];
 
 export default function (eleventyConfig) {
+  const redirectByPath = new Map(redirects.map((entry) => [entry.from, entry]));
+  const redirectedArticles = new Set();
+  eleventyConfig.on('eleventy.before', () => redirectedArticles.clear());
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets', 'src/wp-content': 'wp-content' });
 
   eleventyConfig.addCollection('neueste', (api) =>
@@ -64,6 +68,15 @@ export default function (eleventyConfig) {
     JSON.stringify(Object.fromEntries(themen.flatMap((t) => [[t.wpPath.split('/').pop(), t.slug], [t.slug, t.slug]]))),
   );
 
+  // Vier vorhandene Artikel erhalten am bisherigen Pfad eine Weiterleitung. Ihre Quellen
+  // und Einträge im Archiv bleiben erhalten; kein zweites Template beansprucht denselben Pfad.
+  eleventyConfig.addTransform('umgezogeneSeiten', function (content) {
+    const redirect = redirectByPath.get(this.page.url);
+    if (!redirect || !this.page.outputPath?.endsWith('.html')) return content;
+    redirectedArticles.add(redirect.from);
+    return renderRedirect(redirect);
+  });
+
   // Eingebettete Videos laden erst nach einem Klick. Bis dahin zeigt die Seite einen Platzhalter
   // und baut keine Verbindung zu YouTube oder Loom auf. Läuft vor relativeLinks.
   eleventyConfig.addTransform('videosPerKlick', function (content) {
@@ -103,8 +116,22 @@ export default function (eleventyConfig) {
   // Merkt sich die erzeugten Dateien, damit der nächste Build veraltete wieder entfernen kann.
   eleventyConfig.on('eleventy.after', async ({ results }) => {
     const root = path.resolve(import.meta.dirname, '..');
-    const files = results.map((r) => path.relative(root, path.resolve(r.outputPath))).sort();
-    await fs.writeFile(MANIFEST, JSON.stringify(files, null, 1) + '\n');
+    const files = new Set(results.map((r) => path.relative(root, path.resolve(r.outputPath))));
+    // Die übrigen alten Pfade haben keine Artikelquelle. Nur diese Ausgaben ergänzen;
+    // eine unerwartete Pfadkollision bricht den Build ab, statt eine Seite zu überschreiben.
+    for (const redirect of redirects) {
+      const output = redirectOutputPath(redirect.from);
+      if (redirectedArticles.has(redirect.from)) {
+        if (!files.has(output)) throw new Error(`Weiterleitung fehlt in Eleventy-Ausgabe: ${redirect.from}`);
+      } else {
+        if (files.has(output)) throw new Error(`Pfadkollision bei Weiterleitung: ${redirect.from}`);
+        const filename = path.join(root, output);
+        await fs.mkdir(path.dirname(filename), { recursive: true });
+        await fs.writeFile(filename, renderRedirect(redirect));
+        files.add(output);
+      }
+    }
+    await fs.writeFile(MANIFEST, JSON.stringify([...files].sort(), null, 1) + '\n');
   });
 
   return {
